@@ -24,10 +24,10 @@ const Services = () => {
           <div className="absolute inset-0  z-0 left-auto right-0">
             <img src={Raices} alt="Background" className="w-full brightness-50  h-full object-cover" />
           </div>
-            <div className="relative z-1 text-center mx-auto">
-              <h4 className="h4 text-white font-bold text-5xl mb-6">Somos Land</h4>
-              <p className="body-2 font-code font-thin mb-[3rem] text-[18px] lg:text-[20px] lg:leading-[36px] text-white">
-              <strong className="font-semibold"> Brindamos vitalidad al mercado con un modelo único de negocios para nuestros clientes y productores asociados.</strong> <br /> <br />
+            <div className="relative z-1  mx-auto">
+              <h4 className="h4 text-white font-extrabold text-center mb-10 text-4xl mt-10 lg:text-6xl lg:mb-16">Somos Land</h4>
+              <p className="body-2 font-code  mb-[3rem] text-[14px] lg:text-[25px] lg:leading-[36px] text-gray-200">
+              <strong className="font-bold   text-start"> Brindamos vitalidad al mercado con un modelo único de negocios para nuestros clientes y productores asociados.</strong> <br /> <br />
                 Nuestras raíces son parte de Grupo Loyalty y en nuestra búsqueda de crecimiento constante, desarrollamos una identidad propia con más de 20 años de trayectoria:  <strong className="font-bold">LANDS BROKER.</strong> Afianzándonos cada día más. <br /> <br />
                 Somos una consultora en constante crecimiento comprometida a proporcionar los más altos estándares de servicio a nuestros clientes. <br /> <br />
                 No somos un bróker de seguros tradicional porque tenemos un modelo de negocios innovador en el mercado argentino.
@@ -40,14 +40,14 @@ const Services = () => {
           <div className=" bg-bordo rounded-3xl h-[38rem] overflow-hidden lg:min-h-[38rem]">
             <p className="text-white lg:text-[1.1rem] font-semibold py-2 text-center">Premio Al Mejor Modelo De Negocios Integral Zurich 2022</p>
 
-          <div className="relative h-[18rem] lg:h-[20rem] bg-bordo  overflow-hidden md:h-[19rem]">
+          <div className="relative h-[18rem] lg:h-[18.5rem] bg-bordo  overflow-hidden md:h-[19rem]">
                 <img
                   src={service2}
                   className="w-full h-[16rem] object-cover"/>
               </div>
               <div className=" xl:px-8">
-                <p   className="body-2  font-code text-18 lg:text-[20px] leading-6 px-8 text-white">
-                Contamos con amplitud de oferta para acercar a nuestros clientes una variedad de productos de Compañías de Seguros que operan con nosotros.
+                <p   className="body-2 font-thin  font-code text-18 lg:text-[20px] leading-6 px-8 text-gray-200">
+                Contamos con amplitud de oferta para acercar a nuestros clientes una variedad de productos de Compañías de Seguros que operan con nosotros. <br />
               Nos destacamos por nuestra independencia e imparcialidad, porque seleccionamos para nuestros clientes las opciones que consideramos más adecuadas a cada necesidad de cobertura.
               </p >
               </div>
@@ -78,7 +78,7 @@ const Services = () => {
               <div className="relative h-[10rem]  overflow-hidden md:h-[18rem]">
                 <img
                   src={service3}
-                  className="w-full  object-cover"/>
+                  className="w-full h-full  object-cover"/>
               </div>
             </div>
           </div>

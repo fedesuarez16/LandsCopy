@@ -4,7 +4,7 @@ import Section from './Section';
 
 const Hero = () => {
   return (
-    <Section className="relative bg-cover  bg-bg  bg-center h-screen lg:h-screen flex items-center">
+    <Section id='hero' className="relative bg-cover  bg-bg  bg-center h-screen lg:h-screen flex items-center">
       {/* Background image container positioned at the right side */}
       <div className="absolute inset-0 z-0 left-auto right-0">
         <img src={BgDesktop} alt="Background" className="w-full h-full object-cover" />

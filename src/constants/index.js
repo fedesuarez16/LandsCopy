@@ -53,22 +53,22 @@ export const navigation = [
   {
     id: "0",
     title: "Nosotros",
-    url: "#features",
+    url: "#nosotros",
   },
   {
     id: "1",
     title: "Servicios",
-    url: "#pricing",
+    url: "#features",
   },
   {
     id: "2",
     title: "Alianzas y Compañias",
-    url: "#how-to-use",
+    url: "#alianzas",
   },
   {
     id: "3",
     title: "Contacto",
-    url: "#roadmap",
+    url: "#contacto",
   }
 
 ];

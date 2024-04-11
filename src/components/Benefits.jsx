@@ -11,7 +11,7 @@ const Benefits = () => {
         <div className="lg:gap-10 mb-10 lg:px-32">
           <div className="block mx-auto relative p-0.5 bg-no-repeat bg-[length:100%_100%]">
             <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem]">
-              <h5 className="h5 lg:text-5xl lg:w-[390px] mb-20 text-white bg-verde">Lineas personales</h5>
+              <h5 id="lineas" className="h5 lg:text-5xl lg:w-[390px] mb-20 py-2 text-white bg-verde">Lineas personales</h5>
 
               {/* items */}
               <div className="grid font-code text-start  lg:grid-cols-2 gap-4 mb-6">
@@ -25,11 +25,11 @@ const Benefits = () => {
                 </div>
                 <div className="flex items-center">
                   <img src={check} alt="Tick" className="mr-2" />
-                  <p className="body-2 font-semibold text-black">Movilidad (Bicicletas, monopatín, etc)</p>
+                  <p className="body-2 font-semibold text-black">Movilidad <p className="font-thin"> (Bicicletas, monopatín, etc) </p></p>
                 </div>
                 <div className="flex items-center">
                   <img src={check} alt="Tick" className="mr-2" />
-                  <p className="body-2 font-semibold text-black">Equipos electrónicos portátiles (Computadoras, Celulares, tablets, otros.)
+                  <p className="body-2 font-semibold text-black">Equipos electrónicos portátiles <p className="font-thin"> (Computadoras, Celulares, tablets, otros.) </p>
                   </p>
                 </div>
                 <div className="flex items-center">
@@ -52,14 +52,14 @@ const Benefits = () => {
               </div>
 
               <div className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-20">
-                <p className="font-code text-xs font-bold text-white uppercase tracking-wider">
+                <p className="font-code text-[15px] font-semibold text-white  tracking-wider">
                   Escribinos
                 </p>
               </div>
 
 
 
-              <h5 className="h5 lg:text-5xl lg:w-[390px] mb-20  mt-24 text-white bg-brown">Negocios y Empresas</h5>
+              <h5 id="negocios" className="h5 lg:text-5xl lg:w-[490px] py-2 mb-20  mt-24 text-white bg-brown">Negocios y Empresas</h5>
                 {/* items 2 */}
                 <div className="grid text-start font-code lg:grid-cols-2 gap-4 mb-6">
                   <div className="flex items-center">
@@ -130,12 +130,12 @@ const Benefits = () => {
                 </div>
 
                 <div className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-20">
-                <p className="font-code text-xs font-bold text-white uppercase tracking-wider">
+                <p className="font-code text-[15px] font-semibold text-white  tracking-wider">
                   Escribinos
                 </p>
               </div>
 
-              <h5 className="h5 lg:text-5xl lg:w-[540px] mb-20  mt-24 text-white bg-bordo">Entretenimiento y Ocio</h5>
+              <h5 id="entretenimiento" className="h5 lg:text-5xl lg:w-[540px] mb-20 py-2  mt-24 text-white bg-bordo">Entretenimiento y Ocio</h5>
 
                   {/* items */}
                   <div className="grid text-start font-code lg:grid-cols-2 gap-4 mb-6">
@@ -153,7 +153,7 @@ const Benefits = () => {
                     </div>
                     <div className="flex items-center">
                       <img src={check} alt="Tick" className="mr-2" />
-                      <p className="body-2 font-semibold text-black"> Deportes (Golf, aventura, deporte de riesgo) </p>
+                      <p className="body-2 font-semibold text-black"> Deportes <p className="font-thin"> (Golf, aventura, deporte de riesgo) </p> </p>
                     </div>
                     <div className="flex items-center">
                       <img src={check} alt="Tick" className="mr-2" />
@@ -161,11 +161,11 @@ const Benefits = () => {
                     </div>
                     <div className="flex items-center">
                       <img src={check} alt="Tick" className="mr-2" />
-                      <p className="body-2 font-semibold text-black"> Seguros de espectáculos (seguros para participantes u organizadores) </p>
+                      <p className="body-2 font-semibold text-black"> Seguros de espectáculos <p className="font-thin">(seguros para participantes u organizadores)</p>  </p>
                     </div>
                     <div className="flex items-center">
                       <img src={check} alt="Tick" className="mr-2" />
-                      <p className="body-2 font-semibold text-black"> Responsabilidad Civil Asociaciones (clubes, asociaciones etc) </p>
+                      <p className="body-2 font-semibold text-black"> Responsabilidad Civil Asociaciones <p className="font-thin">(clubes, asociaciones etc) </p>  </p>
                     </div>
                     <div className="flex items-center">
                       <img src={check} alt="Tick" className="mr-2" />
@@ -174,7 +174,7 @@ const Benefits = () => {
                   </div>
 
                   <div className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-16">
-                <p className="font-code text-xs font-bold text-white uppercase tracking-wider">
+                <p className="font-code text-[15px] font-semibold text-white  tracking-wider">
                   Llamanos
                 </p>
               </div>

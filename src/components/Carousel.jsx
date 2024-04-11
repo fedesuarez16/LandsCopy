@@ -47,7 +47,7 @@ const settings = {
 
 const Carousel = () => {
   return (
-    <Section className='bg-custom'>
+    <Section id="alianzas" className='bg-custom'>
       <div className='max-w-[1000px] mx-auto'>
         <h2 className='text-center text-3xl text-black  font-bold mb-6'>Seguros Patrimoniales</h2>
         <Slider {...settings}>

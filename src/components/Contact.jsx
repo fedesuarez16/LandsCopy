@@ -5,7 +5,7 @@ import { direction, email, wpp , Raices} from "../assets";
 
 const ThreeElementsCarousel = () => {
   return (
-    <Section className='bg-brown'>
+    <Section id='contacto' className='bg-brown'>
       <div className="absolute inset-0 w-full opacity-50 z-0 left-auto right-0">
             <img src={Raices} alt="Background" className="w-full brightness-50  h-full object-cover" />
           </div>

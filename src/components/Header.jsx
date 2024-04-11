@@ -1,18 +1,16 @@
+import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
-import { brainwave, yourlogo } from "../assets";
+import { yourlogo } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
-import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
-import { useState } from "react";
-import { socials } from "../constants";
-
 
 const Header = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
+  const [showSubmenu, setShowSubmenu] = useState(false);
 
   const toggleNavigation = () => {
     if (openNavigation) {
@@ -31,9 +29,17 @@ const Header = () => {
     setOpenNavigation(false);
   };
 
+  const handleMouseEnter = () => {
+    setShowSubmenu(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowSubmenu(false);
+  };
+
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-custom lg:backdrop-blur-sm ${
+      className={`fixed top-0 left-0 w-full z-50 border-b border-n-6 lg:bg-custom lg:backdrop-blur-sm ${
         openNavigation ? "bg-custom" : "bg-custom backdrop-blur-sm"
       }`}
     >
@@ -53,6 +59,8 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
+                onMouseEnter={item.title === "Servicios" ? handleMouseEnter : null}
+                onMouseLeave={item.title === "Servicios" ? handleMouseLeave : null}
                 className={`block relative font-code text-2xl uppercase text-black transition-colors hover:text-color-1 ${
                   item.onlyMobile ? "lg:hidden" : ""
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
@@ -62,6 +70,19 @@ const Header = () => {
                 } lg:leading-5 lg:hover:text-black xl:px-12`}
               >
                 {item.title}
+                {item.title === "Servicios" && showSubmenu && (
+                  <div className="absolute left-0 mt-2 p-2 bg-custom w-[230px] rounded-lg shadow-lg">
+                    <a href="#lineas" className="block py-2 px-4 text-[12px] text-black hover:bg-gray-200">
+                      Lineas Personales
+                    </a>
+                    <a href="#negocios" className="block py-2 font-code px-4 text-[12px] text-black hover:bg-gray-200">
+                      Negocios y Empresas
+                    </a>
+                    <a href="#entretenimiento" className="block py-2 font-code px-4 text-[12px] text-black hover:bg-gray-200">
+                      Entretenimiento y Ocio
+                    </a>
+                  </div>
+                )}
               </a>
             ))}
           </div>
@@ -69,27 +90,12 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <ul className=" hidden lg:flex gap-5 flex-wrap">
-          {socials.map((item) => (
-            <a
-              key={item.id}
-              href={item.url}
-              target="_blank"
-              className="flex items-center justify-center w-10 h-10 rounded-full transition-color"
-            >
-              <img src={item.iconUrl} width={23} height={23} alt={item.title} />
-            </a>
-          ))}
-        </ul>
-
-          
-      
-
         <Button
           className="ml-auto lg:hidden"
           px="px-3"
           onClick={toggleNavigation}
         >
+          {/* Icono de menú */}
         </Button>
       </div>
     </div>

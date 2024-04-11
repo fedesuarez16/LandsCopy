@@ -2,7 +2,7 @@ import React from 'react';
 import Section from "./Section";
 
 import Slider from 'react-slick';
-import { companyLogos } from '../constants'; // Assuming companyLogos is an array of logo URLs
+import { art } from '../constants'; // Assuming art is an array of logo URLs
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -51,7 +51,7 @@ const CarouselTwo = () => {
       <div className='max-w-[1000px] mx-auto'>
         <h2 className='text-center text-3xl text-black  font-bold mb-6'>ART</h2>
         <Slider {...settings}>
-          {companyLogos.map((logo, index) => (
+          {art.map((logo, index) => (
             <div key={index} className=''>
               <img src={logo} alt={`Logo ${index}`} className="w-52 h-52 object-contain" />
             </div>

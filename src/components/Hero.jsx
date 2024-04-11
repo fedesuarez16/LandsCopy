@@ -23,7 +23,7 @@ const Hero = () => {
 
       {/* Content of the hero */}
       <div className="container  mx-auto pb-[310px] lg:pb-0 text-center lg:text-start z-10">
-        <h1 className="text-4xl lg:text-7xl text-white mb-4">
+        <h1 className="text-5xl font-bold lg:text-7xl text-white mb-4">
           Resguardamos <br /> tu patrimonio
         </h1>
         <p className="text-lg lg:text-xl leading-7 font-code lg:font-thin w-full lg:w-1/2 text-white mb-8">

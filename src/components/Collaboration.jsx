@@ -1,82 +1,42 @@
-import { brainwaveSymbol, check } from "../assets";
+import { brainwaveSymbol, check, imagetwo } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
-const Collaboration = () => {
+const   Collaboration = () => {
   return (
-    <Section crosses>
-      <div className="container lg:flex">
-        <div className="max-w-[25rem]">
-          <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
+    <Section className="bg-custom" crosses>
+      <div className="container  lg:flex">
+        <div className="max-w-[85rem] px-12">
+          <h2 className="h2 text-bg mb-4 mt-12 md:mb-8">
+            Nuestra Experiencia
           </h2>
 
-          <ul className="max-w-[22rem] mb-10 md:mb-14">
+          <ul className="max-w-[22rem] text-black mb-10 md:mb-14">
             {collabContent.map((item) => (
-              <li className="mb-3 py-3" key={item.id}>
-                <div className="flex items-center">
-                  <img src={check} width={24} height={24} alt="check" />
+              <li className="mb-6" key={item.id}>
+                {item.text && (
+                  <p className="body-2 mb-12 font-code text-black">{item.text}</p>
+                )}
+                <div className="flex font-code items-center">
+                  <img src={check} width={12} height={12} alt="check" />
                   <h6 className="body-2 ml-5">{item.title}</h6>
                 </div>
-                {item.text && (
-                  <p className="body-2 mt-3 text-n-4">{item.text}</p>
-                )}
               </li>
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <button className="bg-bg text-white px-4 py-2 rounded-lg shadow-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
+            Contactanos
+          </button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
-          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
-            {collabText}
-          </p>
-
-          <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
-            <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
-              <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
-                <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
-                  <img
-                    src={brainwaveSymbol}
-                    width={48}
-                    height={48}
-                    alt="brainwave"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <ul>
-              {collabApps.map((app, index) => (
-                <li
-                  key={app.id}
-                  className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${
-                    index * 45
-                  }`}
-                >
-                  <div
-                    className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
-                      index * 45
-                    }`}
-                  >
-                    <img
-                      className="m-auto"
-                      width={app.width}
-                      height={app.height}
-                      alt={app.title}
-                      src={app.icon}
-                    />
-                  </div>
-                </li>
-              ))}
-            </ul>
-
-            <LeftCurve />
-            <RightCurve />
+          <div>
+            <img src={imagetwo} alt="" />
           </div>
+         
         </div>
       </div>
     </Section>

@@ -3,74 +3,40 @@ import Heading from "./Heading";
 import Section from "./Section";
 import Tagline from "./Tagline";
 import { roadmap } from "../constants";
-import { check2, grid, loading1 } from "../assets";
+import { person1, person2, person3 } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
-  <Section className="overflow-hidden" id="roadmap">
-    <div className="container md:pb-10">
-      <Heading tag="Ready to get started" title="What we’re working on" />
-
-      <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
-        {roadmap.map((item) => {
-          const status = item.status === "done" ? "Done" : "In progress";
-
-          return (
-            <div
-              className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
-                item.colorful ? "bg-conic-gradient" : "bg-n-6"
-              }`}
-              key={item.id}
-            >
-              <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
-                <div className="absolute top-0 left-0 max-w-full">
-                  <img
-                    className="w-full"
-                    src={grid}
-                    width={550}
-                    height={550}
-                    alt="Grid"
-                  />
-                </div>
-                <div className="relative z-1">
-                  <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
-                    <Tagline>{item.date}</Tagline>
-
-                    <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
-                      <img
-                        className="mr-2.5"
-                        src={item.status === "done" ? check2 : loading1}
-                        width={16}
-                        height={16}
-                        alt={status}
-                      />
-                      <div className="tagline">{status}</div>
-                    </div>
-                  </div>
-
-                  <div className="mb-10 -my-10 -mx-15">
-                    <img
-                      className="w-full"
-                      src={item.imageUrl}
-                      width={628}
-                      height={426}
-                      alt={item.title}
-                    />
-                  </div>
-                  <h4 className="h4 mb-4">{item.title}</h4>
-                  <p className="body-2 text-n-4">{item.text}</p>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-
-        <Gradient />
+  <Section className="overflow-hidden bg-custom " id="roadmap">
+    <div className="container text-center mt-32 text-black md:pb-10">
+      <Heading title="Management Lands" />
+      
+      <div className="lg:grid lg:grid-cols-3 gap-4  font-code font-thin ">
+        <div className="flex mb-[40px]  flex-col items-center">
+          <div className=" overflow-hidden w-29 h-40 mb-4">
+            <img src={person1} alt="Person 1" className="w-full h-full object-cover" />
+          </div>
+          <h5 className="text-xl text-black font-bold mb-1">Gastón Marengo</h5>
+          <p className="text-sm text-gray-400">Jefe Operativo</p>
+        </div>
+        <div className="flex mb-[40px] flex-col items-center">
+          <div className=" overflow-hidden w-29 h-40 mb-4">
+            <img src={person2} alt="Person 2" className="w-full h-full object-cover" />
+          </div>
+          <h5 className="text-xl font-bold text-black mb-1">Sebastián Cancela  </h5>
+          <p className="text-sm text-gray-400">Socio y Director General </p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className=" overflow-hidden w-29 h-40 mb-4">
+            <img src={person3} alt="Person 3" className="w-full h-full object-cover" />
+          </div>
+          <h5 className="text-xl font-bold mb-1">Francisco Pla Cárdenas</h5>
+          <p className="text-sm  text-center text-gray-400">Socio y Director o Gerente de Administración y Finanzas</p>
+        </div>
       </div>
-
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">Our roadmap</Button>
-      </div>
+      
+      {/* Frase centrada */}
+      <p className="text-center mb-[150px] mt-44 text-5xl p-14 font-light">Contamos con más de <b> 20 años de Experiencia </b> en la <b> Industria Financiera </b> y de <b> Seguros</b></p>
     </div>
   </Section>
 );

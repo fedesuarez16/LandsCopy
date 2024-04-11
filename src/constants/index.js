@@ -14,6 +14,7 @@ import {
   framer,
   homeSmile,
   instagram,
+  linkedin,
   notification2,
   notification3,
   notification4,
@@ -34,6 +35,18 @@ import {
   telegram,
   twitter,
   yourlogo,
+  allianz,
+  berkley,
+  experta,
+  expertaart,
+  federacion,
+  gsi,
+  mercantil,
+  meridional,
+  net,
+  provincia,
+  credito,
+  zurich
 } from "../assets";
 
 export const navigation = [
@@ -75,12 +88,31 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [  allianz,
+  berkley,
+  experta,
+  federacion,
+  mercantil,
+  meridional,
+  credito,
+  zurich
+];
+
+export const art = [  
+  berkley,
+  expertaart,
+  federacion,
+  mercantil,
+  provincia,
+];
+
+
+
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Compañías de Primer Nivel",
+  "El menor valor del mercado  ",
+  "La cobertura adecuada  ",
 ];
 
 export const brainwaveServicesIcons = [
@@ -128,21 +160,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Somos una consultora en constante crecimiento comprometida a proporcionar los más altos estándares de servicio a nuestros clientes.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Mas de 10.000 clientes",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Más de 15 Compañías Líderes de Mercado",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "1000 Empresas confían en nosotros",
   },
 ];
 
@@ -244,8 +276,8 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Lineas Personales",
+    text: "Automotores – Moto - Barco Hogar Movilidad Bicicletas, monopatín, etc Equipos electrónicos portátiles Computadoras, Celulares, tablets, otros",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -266,47 +298,11 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
-  },
-  {
-    id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+  }
 ];
 
 export const socials = [
-  {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
+
   {
     id: "2",
     title: "Instagram",
@@ -315,14 +311,9 @@ export const socials = [
   },
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
+    title: "linkedin",
+    iconUrl: linkedin,
     url: "#",
   },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
-  },
+
 ];

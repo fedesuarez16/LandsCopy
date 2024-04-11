@@ -1,50 +1,33 @@
 import Section from "./Section";
-import { smallSphere, stars } from "../assets";
-import Heading from "./Heading";
-import PricingList from "./PricingList";
-import { LeftLine, RightLine } from "./design/Pricing";
+import { brainwaveSymbol, check, imagethree } from "../assets";
+import { collabApps, collabContent, collabText } from "../constants";
 
 const Pricing = () => {
   return (
-    <Section className="overflow-hidden" id="pricing">
-      <div className="container relative z-2">
-        <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
-          <img
-            src={smallSphere}
-            className="relative z-1"
-            width={255}
-            height={255}
-            alt="Sphere"
-          />
-          <div className="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
-            <img
-              src={stars}
-              className="w-full"
-              width={950}
-              height={400}
-              alt="Stars"
-            />
+    <Section className="bg-custom ">
+      <div className="container mt-12 lg:flex">
+        <div className="lg:w-[38rem] lg:pl-14 lg:mr-8 mt-4 md:mt-0">
+          <div>
+            <img src={imagethree} alt="" />
           </div>
         </div>
 
-        <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
-        />
+        <div className="max-w-[29rem]">
+          <h2 className="h2 text-bg mb-4 mt-12 md:mb-8">
+            Somos un Broker con Fuerza Natural
+          </h2>
 
-        <div className="relative">
-          <PricingList />
-          <LeftLine />
-          <RightLine />
-        </div>
-
-        <div className="flex justify-center mt-10">
-          <a
-            className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
-          >
-            See the full details
-          </a>
+          <ul className="max-w-[29rem] text-black mb-10 md:mb-14">
+            {collabContent.map((item) => (
+              <li className="mb-6" key={item.id}>
+                {item.text && (
+                  <p className="body-2 font-code mb-12 text-black">
+                    Nos destacamos por nuestra <strong  className="font-semibold">Independencia e Imparcialidad. </strong>  Trabajamos con las Compañías Líderes del Mercado, garantizando Respuesta y Solvencia Financiera. Contamos con una amplitud de oferta para acercar a nuestros clientes productos de Compañías de Seguros que operan con nosotros.
+                  </p>
+                )}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </Section>

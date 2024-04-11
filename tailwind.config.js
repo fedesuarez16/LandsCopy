@@ -5,16 +5,20 @@ import plugin from "tailwindcss/plugin";
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+   
     extend: {
       colors: {
-        color: {
-          1: "#AC6AFF",
-          2: "#FFC876",
-          3: "#FF776F",
-          4: "#7ADB78",
-          5: "#858DFF",
-          6: "#FF98E2",
-        },
+        
+      
+          'custom': '#EDECE6',
+          'bg': '#49202A',
+          'brown': '#5D4C30',
+          'bordo': '#7A0518', 
+          'verde': '#4B7838',
+          'gris': '#EDECE6'
+          
+,
+        
         stroke: {
           1: "#26242C",
         },
@@ -69,16 +73,17 @@ export default {
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+          "conic-gradient(from 225deg, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF)",
       },
     },
+ 
   },
   plugins: [
     plugin(function ({ addBase, addComponents, addUtilities }) {
       addBase({});
       addComponents({
         ".container": {
-          "@apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem]":
+          "@apply max-w-[77.5rem] mx-auto px-5  md:px-10 lg:px-15 xl:max-w-[87.5rem]":
             {},
         },
         ".h1": {
@@ -111,10 +116,7 @@ export default {
         ".caption": {
           "@apply text-sm": {},
         },
-        ".tagline": {
-          "@apply font-grotesk font-light text-xs tracking-tagline uppercase":
-            {},
-        },
+        
         ".quote": {
           "@apply font-code text-lg leading-normal": {},
         },

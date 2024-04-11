@@ -6,7 +6,7 @@ const Pricing = () => {
   return (
     <Section id="nosotros" className="bg-custom ">
       <div className="container mt-12 lg:flex">
-        <div className="lg:w-[38rem] lg:pl-14 lg:mr-8 mt-4 md:mt-0">
+        <div className="lg:w-[38rem] lg:pl-14 lg:mr-8 mt-4 mb-10 md:mt-0">
           <div>
             <img src={imagethree} alt="" />
           </div>

@@ -27,9 +27,18 @@ const   Collaboration = () => {
             ))}
           </ul>
 
-          <button className="bg-bg text-white px-4 py-2 rounded-lg shadow-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
-            Contactanos
-          </button>
+          <button
+  className="bg-bg text-white px-4 py-2 rounded-lg shadow-md"
+  onClick={() => {
+    const contactoElement = document.getElementById('contacto');
+    if (contactoElement) {
+      contactoElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }}
+>
+  Contactanos
+</button>
+
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

@@ -2,13 +2,12 @@ import React from 'react';
 import Section from "./Section";
 import { direction, email, wpp , Raices} from "../assets";
 
-
 const ThreeElementsCarousel = () => {
   return (
     <Section id='contacto' className='bg-brown'>
       <div className="absolute inset-0 w-full opacity-50 z-0 left-auto right-0">
-            <img src={Raices} alt="Background" className="w-full brightness-50  h-full object-cover" />
-          </div>
+        <img src={Raices} alt="Background" className="w-full brightness-50 h-full object-cover" />
+      </div>
       <div className='max-w-[1000px] mx-auto'>
         <div className="lg:flex justify-between">
           {/* First element */}
@@ -25,7 +24,9 @@ const ThreeElementsCarousel = () => {
           
           {/* Third element */}
           <div className='flex flex-col items-center'>
-            <img src={wpp} alt='Element 3' className='w-24 h-24 object-contain mb-2' />
+            <a href="https://wa.me/5491170985000" target="_blank" rel="noopener noreferrer">
+              <img src={wpp} alt='Element 3' className='w-24 h-24 object-contain mb-2' />
+            </a>
             <p className='text-center'>(5411) 7098-5000</p>
           </div>
         </div>

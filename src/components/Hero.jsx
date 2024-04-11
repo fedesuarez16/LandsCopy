@@ -26,7 +26,7 @@ const Hero = () => {
         <h1 className="text-5xl font-bold lg:text-7xl text-white mb-4">
           Resguardamos <br /> tu patrimonio
         </h1>
-        <p className="text-lg lg:text-xl leading-7 font-code lg:font-thin w-full lg:w-1/2 text-white mb-8">
+        <p className="text-lg lg:text-xl leading-7 font-code lg:font-thin w-full lg:w-1/2 text-gray-100 mb-8">
         Brindamos vitalidad al mercado con un modelo único de negocios para nuestros clientes y productores asociados, ofreciendo una asesoría integral en <b className='font-bold'>Resguardo Patrimonial.</b>
         </p>
         {/* Other elements of the hero, such as buttons, etc. */}

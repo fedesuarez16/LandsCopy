@@ -8,7 +8,7 @@ const   Collaboration = () => {
   return (
     <Section className="bg-custom" crosses>
       <div className="container  lg:flex">
-        <div className="max-w-[85rem] px-12">
+        <div className="max-w-[85rem] lg:px-12">
           <h2 className="h2 text-bg mb-4 mt-12 md:mb-8">
             Nuestra Experiencia
           </h2>

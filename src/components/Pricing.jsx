@@ -1,18 +1,30 @@
 import Section from "./Section";
 import { brainwaveSymbol, check, imagethree } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
+import { motion } from 'framer-motion';
+import { fadeIn } from '../variants'
 
 const Pricing = () => {
   return (
     <Section id="nosotros" className="bg-custom ">
       <div className="container mt-12 lg:flex">
-        <div className="lg:w-[38rem] lg:pl-14 lg:mr-8 mt-4 mb-10 md:mt-0">
+        <motion.div 
+          variants={fadeIn('right', 0.3)}
+          initial='hidden'
+          whileInView={'show'}
+          viewport={{once: false, amount: 0.3}}
+        className="lg:w-[38rem] lg:pl-14 lg:mr-8 mt-4 mb-10 md:mt-0">
           <div>
             <img src={imagethree} alt="" />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="max-w-[29rem]">
+        <motion.div 
+          variants={fadeIn('left', 0.3)}
+          initial='hidden'
+          whileInView={'show'}
+          viewport={{once: false, amount: 0.3}}
+        className="max-w-[29rem]">
           <h2 className="h2 text-bg mb-4 mt-2 md:mb-8">
             Somos un Broker con Fuerza Natural
           </h2>
@@ -28,7 +40,7 @@ const Pricing = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </motion.div>
       </div>
     </Section>
   );

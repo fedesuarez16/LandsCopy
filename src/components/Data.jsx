@@ -26,7 +26,7 @@ const Data = () => {
                     
           {/* Third element */}
           <div className='flex flex-col items-center'>
-            <img src={ssn} alt='Element 3' className='w-24 h-24 object-contain mb-2' />
+            <img src={ssn} alt='Element 3' className='w-[190px] h-[80px] object-contain mb-2' />
           </div>
 
           <div className='flex flex-col items-center'>

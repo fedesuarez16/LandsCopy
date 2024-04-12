@@ -109,6 +109,8 @@ import net from "./logos/net.png";
 import provincia from "./logos/provincia.png";
 import credito from "./logos/creditoycaucion.png";
 import zurich from "./logos/zurich.png";
+import universal from "./logos/universal.png";
+
 
 
 
@@ -171,6 +173,7 @@ export {
   done,
   hero,
   roadmap1,
+  universal,
   roadmap2,
   roadmap3,
   roadmap4,

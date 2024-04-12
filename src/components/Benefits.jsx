@@ -51,11 +51,20 @@ const Benefits = () => {
                 </div>
               </div>
 
-              <div className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-20">
+              <div
+               onClick={() => {
+                const contactoElement = document.getElementById('contacto');
+                if (contactoElement) {
+                  contactoElement.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+               className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-20">
                 <p className="font-code text-[15px] font-semibold text-white  tracking-wider">
-                  Escribinos
+                  Hablanos
                 </p>
               </div>
+
+             
 
 
 
@@ -129,7 +138,14 @@ const Benefits = () => {
                   </div>
                 </div>
 
-                <div className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-20">
+                <div 
+                 onClick={() => {
+                  const contactoElement = document.getElementById('contacto');
+                  if (contactoElement) {
+                    contactoElement.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-20">
                 <p className="font-code text-[15px] font-semibold text-white  tracking-wider">
                   Escribinos
                 </p>
@@ -173,7 +189,14 @@ const Benefits = () => {
                     </div>
                   </div>
 
-                  <div className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-16">
+                  <div 
+                   onClick={() => {
+                    const contactoElement = document.getElementById('contacto');
+                    if (contactoElement) {
+                      contactoElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                  className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-16">
                 <p className="font-code text-[15px] font-semibold text-white  tracking-wider">
                   Llamanos
                 </p>

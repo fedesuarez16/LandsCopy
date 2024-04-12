@@ -24,10 +24,9 @@ const Contact = () => {
           </div>
           
           {/* Third element */}
-         <div className='flex flex-col items-center'>
-            <a href="https://wa.me/541170985000" target="_blank" rel="noopener noreferrer">
+         <div className='flex flex-col lg:mt-2 mt-4 items-center'>
               <img src={wpp} alt='Element 3' className='w-24 h-24 object-contain mb-2 cursor-pointer' />
-            </a>
+            
             <p className='text-center'>(5411) 7098-5000</p>
           </div>
         </div>

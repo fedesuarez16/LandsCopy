@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from "./Section";
+import { curve } from "../assets";
 
 import Slider from 'react-slick';
 import { art } from '../constants'; // Assuming art is an array of logo URLs
@@ -50,6 +51,8 @@ const CarouselTwo = () => {
     <Section className='bg-custom'>
       <div className='max-w-[1000px] mx-auto'>
         <h2 className='text-center text-3xl text-black  font-bold mb-6'>ART</h2>
+        <img src={curve} alt="Subrayado" className="mx-auto mb-6" />
+
         <Slider {...settings}>
           {art.map((logo, index) => (
             <div key={index} className=''>

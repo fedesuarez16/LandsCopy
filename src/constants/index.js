@@ -296,13 +296,13 @@ export const socials = [
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/lands.broker/",
   },
   {
     id: "3",
     title: "linkedin",
     iconUrl: linkedin,
-    url: "#",
+    url: "https://www.linkedin.com/company/landsbroker/",
   },
 
 ];

@@ -13,6 +13,7 @@ import CarouselThree from "./components/CarouselThree";
 import Contact from "./components/Contact";
 import WorkWithUs from "./components/WorkWithUs";
 import Data from "./components/Data";
+import WhatsAppButton from "./components/WhatsappButton";
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
   return (
     <>
       <div className="pt-[4.75rem]  lg:pt-[5.25rem] overflow-hidden">
+        <WhatsAppButton/>
         <Header />
         <Hero />
         <Pricing />
@@ -34,6 +36,7 @@ const App = () => {
         <WorkWithUs/>
         <Data/>
         <Footer />
+
       </div>
 
     </>

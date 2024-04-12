@@ -1,6 +1,7 @@
 import React from 'react';
 import { background, Raices, BgDesktop } from "../assets";
 import Section from './Section';
+import WhatsAppButton from './WhatsappButton';
 
 const Hero = () => {
   return (

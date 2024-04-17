@@ -1,4 +1,5 @@
-import { useState } from "react";
+// Importar useEffect de React
+import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
@@ -11,6 +12,20 @@ const Header = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
   const [showSubmenu, setShowSubmenu] = useState(false);
+  const [isMobile, setIsMobile] = useState(false); // Nuevo estado para verificar si es un dispositivo móvil
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 1024); // Cambiar aquí el ancho de pantalla para dispositivos móviles según sea necesario
+    };
+
+    handleResize(); // Llamar a handleResize una vez para verificar el estado inicial
+    window.addEventListener("resize", handleResize); // Agregar el event listener para el evento resize
+
+    return () => {
+      window.removeEventListener("resize", handleResize); // Remover el event listener al desmontar el componente
+    };
+  }, []);
 
   const toggleNavigation = () => {
     if (openNavigation) {
@@ -62,7 +77,7 @@ const Header = () => {
                 onMouseEnter={item.title === "Servicios" ? handleMouseEnter : null}
                 onMouseLeave={item.title === "Servicios" ? handleMouseLeave : null}
                 className={`block relative font-code text-2xl uppercase text-black transition-colors hover:text-color-1 ${
-                  item.onlyMobile ? "lg:hidden" : ""
+                  (item.onlyMobile && isMobile) ? "hidden lg:hidden" : "" // Condición para ocultar en dispositivos móviles
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                   item.url === pathname.hash
                     ? "z-2 lg:text-black"

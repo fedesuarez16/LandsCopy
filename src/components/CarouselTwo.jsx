@@ -48,8 +48,8 @@ const settings = {
 
 const CarouselTwo = () => {
   return (
-    <Section className='bg-custom'>
-      <div className='max-w-[1000px] mx-auto'>
+    <section className='bg-custom '>
+      <div className='max-w-[1000px]  mx-auto'>
         <h2 className='text-center text-2xl text-black  font-bold mb-2'>ART</h2>
         <img src={curve} alt="Subrayado" className="mx-auto mb-2" />
 
@@ -61,7 +61,7 @@ const CarouselTwo = () => {
           ))}
         </Slider>
       </div>
-    </Section>
+    </section>
   );
 };
 

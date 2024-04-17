@@ -49,11 +49,11 @@ const settings = {
 
 const Carousel = () => {
   return (
-    <Section id="alianzas" className='bg-custom'>
+    <section id="alianzas" className='bg-custom'>
       <div className='max-w-[1000px] mx-auto'>
         <h2 className='text-center text-2xl text-black  font-bold mb-2'>Seguros Patrimoniales</h2>
         {/* Aquí agregamos la imagen como subrayado */}
-        <img src={curve} alt="Subrayado" className="mx-auto mb-2" />
+        <img src={curve} alt="Subrayado" className="mx-auto " />
         <Slider {...settings}>
           {companyLogos.map((logo, index) => (
             <div key={index} className=''>
@@ -62,7 +62,7 @@ const Carousel = () => {
           ))}
         </Slider>
       </div>
-    </Section>
+    </section>
   );
 };
 

@@ -14,7 +14,7 @@ import Generating from "./Generating";
 
 const Services = () => {
   return (
-    <Section className="bg-custom mb-10 m " id="how-to-use">
+    <Section className="bg-custom lg:mb-10 m " id="how-to-use">
       <div className="container text-black">
       
 

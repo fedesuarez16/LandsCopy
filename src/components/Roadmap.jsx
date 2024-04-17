@@ -13,8 +13,8 @@ const Roadmap = () => (
       
       <div className="lg:grid lg:grid-cols-3 gap-4  font-code font-thin ">
         <div className="flex mb-[40px]  flex-col items-center">
-          <div className=" overflow-hidden w-29 h-40 mb-4">
-            <img src={person1} alt="Person 1" className="w-full h-full object-cover" />
+          <div className="  w-29 h-40 mb-4">
+            <img src={person1} alt="Person 1" className="w-full h-full object-contain" />
           </div>
           <h5 className="text-xl text-black font-bold mb-1">Gastón Marengo</h5>
           <p className="text-sm text-gray-400">Jefe Operativo</p>

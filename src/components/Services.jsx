@@ -14,7 +14,7 @@ import Generating from "./Generating";
 
 const Services = () => {
   return (
-    <Section className="bg-custom mb-10 mt-8 " id="how-to-use">
+    <Section className="bg-custom mb-10 m " id="how-to-use">
       <div className="container text-black">
       
 
@@ -38,7 +38,6 @@ const Services = () => {
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
           <div className=" bg-bordo rounded-3xl h-[38rem] overflow-hidden lg:min-h-[38rem]">
-            <p className="text-white lg:text-[1.1rem] font-semibold py-2 text-center">Premio Al Mejor Modelo De Negocios Integral Zurich 2022</p>
 
           <div className="relative h-[18rem] lg:h-[18.5rem] bg-bordo  overflow-hidden md:h-[19rem]">
                 <img

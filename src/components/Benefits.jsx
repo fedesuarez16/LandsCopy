@@ -5,10 +5,10 @@ import Section from "./Section";
 const Benefits = () => {
   return (
     <Section className="bg-custom" id="features">
-      <div className="container mt-20 text-center text-black relative z-2">
+      <div className="container mt-10 lg:mt-0 text-center text-black relative z-2">
         <Heading title="Resguardo Patrimonial"/>
       
-        <div className="lg:gap-10 mb-10 lg:px-32">
+        <div className="lg:gap-10  lg:px-32">
           <div className="block mx-auto relative p-0.5 bg-no-repeat bg-[length:100%_100%]">
             <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem]">
               <h5 id="lineas" className="h5 lg:text-5xl lg:w-[390px] mb-20 py-2 text-white bg-verde">Lineas personales</h5>
@@ -39,7 +39,7 @@ const Benefits = () => {
                 <div className="flex items-center">
                   <img src={check} alt="Tick" className="mr-2" />
                   <p className="body-2 font-semibold text-black"> Accidentes Personales
-                    RC y mala praxis profesional </p>
+                    RC y Mala Práxis profesional </p>
                 </div>
                 <div className="flex items-center">
                   <img src={check} alt="Tick" className="mr-2" />
@@ -58,9 +58,9 @@ const Benefits = () => {
                   contactoElement.scrollIntoView({ behavior: 'smooth' });
                 }
               }}
-               className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-20">
-                <p className="font-code text-[15px] font-semibold text-white  tracking-wider">
-                  Hablanos
+              className="flex bg-bordo  w-32 py-4  rounded-md items-center mt-16">
+              <p className="font-code text-[15px] mx-auto font-semibold text-white  tracking-wider">
+                  Contactate
                 </p>
               </div>
 
@@ -145,7 +145,7 @@ const Benefits = () => {
                     contactoElement.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}
-                className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-20">
+                className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-16">
                 <p className="font-code text-[15px] font-semibold text-white  tracking-wider">
                   Escribinos
                 </p>

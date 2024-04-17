@@ -8,7 +8,7 @@ import { fadeIn } from '../variants'
 
 const   Collaboration = () => {
   return (
-    <Section className="bg-custom" crosses>
+    <Section className="bg-custom mb-10 lg:mb-20" crosses>
       <div className="container  lg:flex">
         <motion.div
          variants={fadeIn('right', 0.3)}

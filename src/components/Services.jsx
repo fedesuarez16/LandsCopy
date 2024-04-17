@@ -14,20 +14,20 @@ import Generating from "./Generating";
 
 const Services = () => {
   return (
-    <Section className="bg-custo " id="how-to-use">
+    <Section className="bg-custom mb-10 mt-8 " id="how-to-use">
       <div className="container text-black">
       
 
         <div className="relative lg:px-10  ">
-          <div className="relative bg-bg z-1 flex items-center h-[49rem] mb-5 p-8  border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative bg-bg z-1 flex items-center h-[37rem] mb-5 p-8  border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[36rem]">
             
           <div className="absolute inset-0  z-0 left-auto right-0">
             <img src={Raices} alt="Background" className="w-full brightness-50  h-full object-cover" />
           </div>
             <div className="relative z-1  mx-auto">
-              <h4 className="h4 text-white font-extrabold text-center mb-10 text-4xl mt-10 lg:text-6xl lg:mb-16">Somos Land</h4>
-              <p className="body-2 font-code  mb-[3rem] text-[14px] lg:text-[25px] lg:leading-[36px] text-gray-200">
-              <strong className="font-bold   text-start"> Brindamos vitalidad al mercado con un modelo único de negocios para nuestros clientes y productores asociados.</strong> <br /> <br />
+              <h4 className="h4 text-white font-extrabold text-center mb-10 text-4xl mt-10 lg:text-5xl ">Somos Land</h4>
+              <p className="body-2 font-code  mb-[3rem] text-[14px] lg:text-[20px] lg:leading-[36px] text-gray-200">
+             
                 Nuestras raíces son parte de Grupo Loyalty y en nuestra búsqueda de crecimiento constante, desarrollamos una identidad propia con más de 20 años de trayectoria:  <strong className="font-bold">LANDS BROKER.</strong> Afianzándonos cada día más. <br /> <br />
                 Somos una consultora en constante crecimiento comprometida a proporcionar los más altos estándares de servicio a nuestros clientes. <br /> <br />
                 No somos un bróker de seguros tradicional porque tenemos un modelo de negocios innovador en el mercado argentino.

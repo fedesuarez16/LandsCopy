@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const settings = {
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 1000,
   slidesToShow: 4, // Show 4 logos at a time

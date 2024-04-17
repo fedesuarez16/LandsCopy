@@ -44,8 +44,8 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={yourlogo} width={190} height={40} alt="Brainwave" />
+        <a className="block w-[8rem] lg:w-[12rem] xl:mr-8" href="#hero">
+          <img src={yourlogo} width={180} height={35} alt="Brainwave" />
         </a>
 
         <nav

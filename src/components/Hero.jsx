@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-bg lg:via-bg to-transparent"></div>
 
       {/* Content of the hero */}
-      <div className="container  mx-auto pb-[310px] lg:pb-0 text-center lg:text-start z-10">
+      <div className="container py-8  mx-auto pb-[310px] lg:pb-0 text-center lg:text-start z-10">
         <h1 className="text-5xl font-bold lg:text-7xl text-white mb-4">
           Resguardamos <br /> tu patrimonio
         </h1>

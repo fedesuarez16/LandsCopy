@@ -20,14 +20,14 @@ const Roadmap = () => (
           <p className="text-sm text-gray-400">Jefe Operativo</p>
         </div>
         <div className="flex mb-[40px] flex-col items-center">
-          <div className=" overflow-hidden w-29 h-40 mb-4">
+          <div className="  w-29 h-40 mb-4">
             <img src={person2} alt="Person 2" className="w-full h-full object-cover" />
           </div>
           <h5 className="text-xl font-bold text-black mb-1">Sebastián Cancela  </h5>
           <p className="text-sm text-gray-400">Socio y Director General </p>
         </div>
         <div className="flex flex-col items-center">
-          <div className=" overflow-hidden w-29 h-40 mb-4">
+          <div className="  w-29 h-40 mb-4">
             <img src={person3} alt="Person 3" className="w-full h-full object-cover" />
           </div>
           <h5 className="text-xl font-bold mb-1">Francisco Pla Cárdenas</h5>

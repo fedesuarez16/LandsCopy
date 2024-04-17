@@ -37,12 +37,15 @@ const Services = () => {
 
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-          <div className=" bg-bordo rounded-3xl h-[38rem] overflow-hidden lg:min-h-[38rem]">
+          <div className=" bg-bordo rounded-[36px] h-[38rem] overflow-hidden lg:min-h-[38rem]">
+          <div className="absolute inset-0  z-0 left-auto right-0">
+               <img src={Raices} alt="Background" className="w-full  h-full " />
+                </div>
 
           <div className="relative h-[18rem] lg:h-[18.5rem] bg-bordo  overflow-hidden md:h-[19rem]">
                 <img
                   src={service2}
-                  className="w-full h-[16rem] object-cover"/>
+                  className="w-full h-[16rem] overflow-hidden object-cover"/>
               </div>
               <div className=" xl:px-8">
                 <p   className="body-2 font-thin  font-code text-18 lg:text-[20px] leading-6 px-8 text-gray-200">
@@ -58,9 +61,7 @@ const Services = () => {
                     
        
               <div className="py-2 px-8 m-8 xl:px-8">
-              <div className="absolute inset-0  z-0 left-auto right-0">
-               <img src={Raices} alt="Background" className="w-full  h-full " />
-                </div>
+              
                 <h4 className="h4 text-white text-4xl font-semibold mb-4">Nuestras Premisas Comerciales</h4>
                 <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -74,6 +75,7 @@ const Services = () => {
                 ))}
               </ul>
               </div>
+              
               <div className="relative h-[10rem]  overflow-hidden md:h-[18rem]">
                 <img
                   src={service3}

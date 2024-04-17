@@ -12,8 +12,8 @@ import { gsi, net } from '../assets'; // Agrega la ruta de la imagen de subrayad
 const CarouselThree = () => {
   return (
     <Section className='bg-custom'>
-      <div className='max-w-[1000px] mb-20 mx-auto'>
-        <h2 className='text-center text-3xl text-black  font-bold mb-6'>Alianzas Estrategicas</h2>
+      <div className='max-w-[1000px] mb-2 mx-auto'>
+        <h2 className='text-center text-2xl text-black  font-bold mb-2'>Alianzas Estrategicas</h2>
         {/* Agrega la imagen de subrayado debajo del título */}
         <img src={curve} alt="Subrayado" className="mx-auto mb-6" />
         <div className="flex gap-8 px-32 justify-center items-center">

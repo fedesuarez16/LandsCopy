@@ -36,7 +36,7 @@ const Roadmap = () => (
       </div>
       
       {/* Frase centrada */}
-      <p className="text-center mb-[150px] mt-44 text-5xl p-14 font-light">Contamos con más de <b> 20 años de Experiencia </b> en la <b> Industria Financiera </b> y de <b> Seguros</b></p>
+      <p className="text-center mb-10 mt-10 text-2xl lg:text-5xl p-14 font-light">Contamos con más de <b> 20 años de Experiencia </b> en la <b> Industria Financiera </b> y de <b> Seguros</b></p>
     </div>
   </Section>
 );

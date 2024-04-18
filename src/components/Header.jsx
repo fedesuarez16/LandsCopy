@@ -1,4 +1,3 @@
-// Importar useEffect de React
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
@@ -12,18 +11,18 @@ const Header = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
   const [showSubmenu, setShowSubmenu] = useState(false);
-  const [isMobile, setIsMobile] = useState(false); // Nuevo estado para verificar si es un dispositivo móvil
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1024); // Cambiar aquí el ancho de pantalla para dispositivos móviles según sea necesario
+      setIsMobile(window.innerWidth <= 1024);
     };
 
-    handleResize(); // Llamar a handleResize una vez para verificar el estado inicial
-    window.addEventListener("resize", handleResize); // Agregar el event listener para el evento resize
+    handleResize();
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener("resize", handleResize); // Remover el event listener al desmontar el componente
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -45,7 +44,9 @@ const Header = () => {
   };
 
   const handleMouseEnter = () => {
-    setShowSubmenu(true);
+    if (!isMobile) {
+      setShowSubmenu(true);
+    }
   };
 
   const handleMouseLeave = () => {
@@ -86,7 +87,7 @@ const Header = () => {
               >
                 {item.title}
                 {item.title === "Servicios" && showSubmenu && (
-                  <div className="absolute left-0 mt-2 p-2 bg-custom w-[230px] rounded-lg shadow-lg">
+                  <div className="absolute left-0 mt-2 p-2 bg-custom w-[230px] rounded-lg shadow-lg" >
                     <a href="#lineas" className="block py-2 px-4 text-[12px] text-black hover:bg-gray-200">
                       Lineas Personales
                     </a>

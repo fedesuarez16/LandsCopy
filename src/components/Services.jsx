@@ -84,15 +84,15 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="flex justify-center py-12 items-center space-x-10">
+          <div className="flex justify-center mx-2 py-12 items-center space-x-8">
           <div>
             <img src={price} alt="Service Image" className=" w-16 lg:w-24 h-auto" />
           </div>
           <div>
             <ul className="">
-                <li className=" items-start">
-                  <p className=" text-[11px] lg:text-[16.3px] font-normal py-1">Premio al Mejor Modelo de Negocios Integral</p>
-                  <p className=" font-extrabold tracking-tagline text-center text-3xl lg:text-5xl">Zurich 2022</p>
+                <li className=" items-start ">
+                  <p className=" text-[10px] lg:text-[16.3px] font-normal py-1">Premio al Mejor Modelo de Negocios Integral</p>
+                  <p className=" font-extrabold tracking-tagline text-3xl lg:text-5xl">Zurich 2022</p>
                 </li>
               
             </ul>

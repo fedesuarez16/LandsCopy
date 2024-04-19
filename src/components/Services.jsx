@@ -1,6 +1,6 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2, service3, check2, Raices } from "../assets";
+import { service1, service2, service3, check2, Raices, price } from "../assets";
 
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
@@ -83,6 +83,21 @@ const Services = () => {
               </div>
             </div>
           </div>
+
+          <div className="flex justify-center py-12 items-center space-x-10">
+          <div>
+            <img src={price} alt="Service Image" className=" w-16 lg:w-24 h-auto" />
+          </div>
+          <div>
+            <ul className="">
+                <li className=" items-start">
+                  <p className=" text-[11px] lg:text-[16.3px] font-normal py-1">Premio al Mejor Modelo de Negocios Integral</p>
+                  <p className=" font-extrabold tracking-tagline text-center text-3xl lg:text-5xl">Zurich 2022</p>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
 
         </div>
       </div>

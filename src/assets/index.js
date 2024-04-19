@@ -29,6 +29,8 @@ import qr from "./qr.png";
 import pdp from "./pdp.png";
 import linkedin from "./linkedin.png";
 import BgDesktop from "./portada.png";
+import price from "./price.png";
+
 
 
 
@@ -136,6 +138,7 @@ export {
   grid,
   yourlogo,
   Raices,
+  price,
   
   homeSmile,
   file02,

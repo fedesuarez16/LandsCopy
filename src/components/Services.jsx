@@ -25,7 +25,7 @@ const Services = () => {
             <img src={Raices} alt="Background" className="w-full brightness-50  h-full object-cover" />
           </div>
             <div className="relative z-1  mx-auto">
-              <h4 className="h4 text-white font-extrabold text-center mb-10 text-4xl mt-10 lg:text-5xl ">Somos Land</h4>
+              <h4 className="h4 text-white font-extrabold text-center mb-10 text-4xl mt-10 lg:text-5xl ">Somos Lands</h4>
               <p className="body-2 font-code  mb-[3rem] text-[14px] lg:text-[20px] lg:leading-[36px] text-gray-200">
              
                 Nuestras raíces son parte de Grupo Loyalty y en nuestra búsqueda de crecimiento constante, desarrollamos una identidad propia con más de 20 años de trayectoria:  <strong className="font-bold">LANDS BROKER.</strong> Afianzándonos cada día más. <br /> <br />

@@ -11,7 +11,7 @@ const Benefits = () => {
         <div   className="lg:gap-10  lg:px-32">
           <div className="block mx-auto relative p-0.5 bg-no-repeat bg-[length:100%_100%]">
             <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem]">
-              <h5  className="h5 lg:text-5xl lg:w-[390px] mb-20 py-2 text-white bg-verde">Lineas personales</h5>
+              <h5  className="h5 lg:text-5xl lg:w-[390px] mb-20 py-2 text-white bg-verde">Líneas personales</h5>
 
               {/* items */}
               <div className="grid font-code text-start  lg:grid-cols-2 gap-4 mb-6">

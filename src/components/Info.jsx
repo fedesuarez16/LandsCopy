@@ -35,16 +35,10 @@ const Info = () => {
               <li className="mb-2" key={item.id}>
                 {item.text && (
                   <p className="body-2 font-code mb-12 leading-6 text-[18px] text-black">
-                      Brindamos vitalidad al mercado con un modelo único
-                      de negocios para nuestros clientes y productores
-                      asociados, ofreciendo una asesoría integral en
-                      Resguardo Patrimonial. <br /> <br />
+                      Nos destacamos por nuestra <b className="font-bold"> independencia e imparcialidad </b> y porque seleccionamos para nuestros clientes las opciones que consideramos más adecuadas para cada necesidad de cobertura. <br /> <br />
 
 
-                      Nuestras raíces son parte del Grupo Loyalty. Estamos
-                      en constante crecimiento y desarrollamos una
-                      identidad propia conformada por un equipo de
-                      profesionales con más de 20 años de trayectoria.
+                      Trabajamos con las Compañías Líderes del Mercado, garantizando Respuesta y Solvencia Financiera.
 
                   </p>
                 )}

@@ -36,25 +36,32 @@ const Roadmap = () => (
         {/* Bloques para dispositivos móviles */}
         <div className="lg:hidden mx-auto mb-40px">
           <div className="flex flex-col items-center bg-gris2 w-48 mx-auto justify-center mb-8">
-            <img src={person1} alt="Person 1" className="w-44 h-44 mb-2 object-contain" />
-            <div className="text-center p-4">
+            <img src={person1} alt="Person 1" className="w-44 mt-1 h-44 mb-2 object-contain" />
+            <div className="text-center  p-4">
               <h5 className="text-xl text-white font-bold mb-1">Gastón Marengo</h5>
               <p className="text-sm text-white">Jefe Operativo</p>
             </div>
           </div>
           <div className="flex flex-col items-center  bg-gris2 w-48 mx-auto  justify-center">
-            <img src={person2} alt="Person 2" className="w-44 h-44 mb-2 object-contain" />
+            <img src={person2} alt="Person 2" className="w-44 mt-1 h-44 mb-2 object-contain" />
             <div className="text-center p-4">
-              <h5 className="text-xl text-white font-bold mb-1">Gastón Marengo</h5>
-              <p className="text-sm text-white">Jefe Operativo</p>
+              <h5 className="text-xl text-white font-bold mb-1">Sebastián Cancela</h5>
+              <p className="text-sm text-white">Socio y Director General</p>
             </div>
           </div>
         </div>
       </div>
       
       {/* Frase centrada */}
-      <p className="text-center mb-10 mt-10 text-2xl lg:text-5xl p-14 font-light">Contamos con más de <b>20 años de Experiencia</b> en la <b>Industria Financiera</b> y de <b>Seguros</b></p>
+      <p className="text-center  mt-20 text-2xl lg:text-5xl p-14 font-light">Contamos con más de <b>20 años de Experiencia</b> en la <b>Industria Financiera</b> y de <b>Seguros</b></p>
     </div>
+
+    
+    <div className="bg-bordo mx-auto mb-40 lg:mx-44 mt-20 rounded-full p-4 w-[80%] lg:w-auto">
+        <div className="flex flex-row items-center p-4  ">
+          <p className="text-white mx-auto text-[14px] leading-0 lg:text-2xl font-bold text-center">Trabajamos con las Compañías Líderes del Mercado, garantizando Respuesta y Solvencia Financiera.</p>
+        </div>
+      </div>
   </Section>
 );
 

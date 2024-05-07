@@ -24,9 +24,9 @@ const Hero = () => {
 
       {/* Content of the hero */}
       <div className="container py-8  mx-auto pb-[310px] lg:pb-0 text-center lg:text-start z-10">
-        <h1 className="text-5xl font-light lg:text-7xl text-bg mb-4">
+        <h1 className="text-4xl font-light lg:text-7xl text-bg mb-4">
           Somos un <b> Broker</b>  <br /> con Fuerza Natural        </h1>
-        <p className="text-lg lg:text-4xl leading-7 font-light w-full lg:w-2/3 text-bg mb-8">
+        <p className="text-xl lg:text-4xl leading-7 font-light w-full lg:w-2/3 text-bg mb-8">
 Con <b>Lands </b> , tu mundo esta protegido
         </p>
         {/* Other elements of the hero, such as buttons, etc. */}

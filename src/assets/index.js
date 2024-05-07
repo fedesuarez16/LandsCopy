@@ -32,6 +32,10 @@ import BgDesktop from "./portada.png";
 import price from "./price.png";
 import fabrica from "./fabrica.png";
 import seguros from "./seguros.png";
+import ig from "./ig.png";
+import lkdn from "./lkdn.png";
+
+
 
 
 
@@ -77,6 +81,8 @@ import perro from "./services/perro.png";
 import foco from "./services/foco.png";
 import negocios from "./services/negocios.png";
 import entretenimiento from "./services/entretenimiento.png";
+
+
 
 
 
@@ -193,6 +199,8 @@ export {
   negocios,
   entretenimiento,
   lines,
+  ig,
+  lkdn,
   stars,
   coins,
   done,

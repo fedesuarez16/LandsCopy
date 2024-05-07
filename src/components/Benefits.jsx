@@ -18,13 +18,10 @@ const Benefits = () => {
         <div   className="lg:gap-10 lg:px-32">
           <div className="block mx-auto relative t p-0.5 bg-no-repeat bg-[length:100%_100%]">
             <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem]">
-              <h5  className="h5 lg:text-5xl mx-auto lg:w-[390px] mb-20 py-2 text-white bg-verde">Líneas personales</h5>
-              <div class="flex justify-center items-center mb-16">
+              <h5  className="h5 lg:text-5xl mx-auto lg:w-[390px] mb-14 lg:mb-20 py-2 text-white bg-verde">Líneas personales</h5>
+              <div class="flex justify-center items-center mb-14">
                 <img src={casa} alt="Imagen 1" class="w-22 mx-1"/>
-                <img src={auto} alt="Imagen 2" class="w-22 mx-1"/>
-                <img src={bici} alt="Imagen 3" class="w-22 mx-1"/>
-                <img src={perro} alt="Imagen 4" class="w-22 mx-1"/>
-                <img src={foco} alt="Imagen 5" class="w-22 mx-1"/>
+                
               </div>
 
 

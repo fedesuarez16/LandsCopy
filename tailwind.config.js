@@ -15,7 +15,9 @@ export default {
           'brown': '#5D4C30',
           'bordo': '#7A0518', 
           'verde': '#4B7838',
-          'gris': '#EDECE6'
+          'gris': '#EDECE6',
+          'gris2': '#707172'
+
           
 ,
         

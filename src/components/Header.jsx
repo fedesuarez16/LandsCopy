@@ -6,6 +6,8 @@ import { yourlogo } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import { HamburgerMenu } from "./design/Header";
+import UpperBar from "./Upperbar";
+
 
 const Header = () => {
   const pathname = useLocation();
@@ -54,11 +56,14 @@ const Header = () => {
   };
 
   return (
+
     <div
-      className={`fixed top-0 left-0 w-full z-50 border-b border-n-6 lg:bg-custom lg:backdrop-blur-sm ${
-        openNavigation ? "bg-custom" : "bg-custom backdrop-blur-sm"
+      className={`fixed top-0 left-0 w-full z-50  lg:bg-bordo lg:backdrop-blur-sm ${
+        openNavigation ? "bg-bordo" : "bg-bordo backdrop-blur-sm"
       }`}
     >
+              <UpperBar/>
+
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[8rem] lg:w-[12rem] xl:mr-8" href="#hero">
           <img src={yourlogo} width={180} height={35} alt="Brainwave" />
@@ -81,9 +86,9 @@ const Header = () => {
                   (item.onlyMobile && isMobile) ? "hidden lg:hidden" : "" // Condición para ocultar en dispositivos móviles
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                   item.url === pathname.hash
-                    ? "z-2 lg:text-black"
-                    : "lg:text-black"
-                } lg:leading-5 lg:hover:text-black xl:px-12`}
+                    ? "z-2 lg:text-white"
+                    : "lg:text-white"
+                } lg:leading-5 lg:hover:text-white xl:px-12`}
               >
                 {item.title}
                 {item.title === "Servicios" && showSubmenu && (

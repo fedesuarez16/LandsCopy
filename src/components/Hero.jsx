@@ -5,30 +5,29 @@ import WhatsAppButton from './WhatsappButton';
 
 const Hero = () => {
   return (
-    <Section id='hero' className="relative bg-cover  bg-bg  bg-center h-screen lg:h-screen flex items-center">
+    <Section id='hero' className="relative bg-cover  bg-center h-screen lg:h-screen flex items-center">
       {/* Background image container positioned at the right side */}
       <div className="absolute inset-0 z-0 left-auto right-0">
-        <img src={BgDesktop} alt="Background" className="w-full h-full object-cover" />
+        <img src={BgDesktop} alt="Background" className="w-full  h-full object-cover" />
       </div>
 
       <div className="lg:hidden absolute inset-0 z-0 left-auto right-0">
-        <img src={background} alt="Background" className="w-full h-full brightness-[70%] object-cover" />
+        <img src={background} alt="Background" className="w-full h-full  object-cover" />
       </div>
      
      
-      <div className="absolute brightness-0  inset-0 z-10 w-2/3">
-        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+      <div className="absolute brightness-0  inset-0 z-10 lg:w-2/3">
+        <img src={Raices} alt="Background" className="w-full opacity-60 h-full object-cover" />
       </div>
       {/* Custom color gradient overlay */}
-      <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-bg lg:via-bg to-transparent"></div>
+      <div className="hidden md:block absolute inset-0 w-[83%] bg-gradient-to-r from-custom via-custom to-transparent"></div>
 
       {/* Content of the hero */}
       <div className="container py-8  mx-auto pb-[310px] lg:pb-0 text-center lg:text-start z-10">
-        <h1 className="text-5xl font-bold lg:text-7xl text-white mb-4">
-          Resguardamos <br /> tu patrimonio
-        </h1>
-        <p className="text-lg lg:text-xl leading-7 font-code lg:font-thin w-full lg:w-1/2 text-gray-100 mb-8">
-        Brindamos vitalidad al mercado con un modelo único de negocios para nuestros clientes y productores asociados, ofreciendo una asesoría integral en <b className='font-bold'>Resguardo Patrimonial.</b>
+        <h1 className="text-5xl font-light lg:text-7xl text-bg mb-4">
+          Somos un <b> Broker</b>  <br /> con Fuerza Natural        </h1>
+        <p className="text-lg lg:text-4xl leading-7 font-light w-full lg:w-2/3 text-bg mb-8">
+Con <b>Lands </b> , tu mundo esta protegido
         </p>
         {/* Other elements of the hero, such as buttons, etc. */}
       </div>

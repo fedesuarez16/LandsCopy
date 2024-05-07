@@ -7,7 +7,7 @@ import { art } from '../constants'; // Assuming art is an array of logo URLs
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const settings = {
+const settings = {  
   dots: false,
   infinite: true,
   speed: 1000,

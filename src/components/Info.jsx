@@ -1,16 +1,16 @@
 import Section from "./Section";
-import { brainwaveSymbol, check, imagethree, price , Raices} from "../assets";
+import { fabrica, price , Raices} from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants'
 
-const Pricing = () => {
+const Info = () => {
   return (
     <Section id="nosotros" className="bg-custom ">
        <div className="absolute opacity-30   w-full">
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
       </div>
-      <div className="container mt-24 lg:flex">
+      <div className="container mt-12 lg:flex">
         <motion.div 
           variants={fadeIn('right', 0.3)}
           initial='hidden'
@@ -18,7 +18,7 @@ const Pricing = () => {
           viewport={{once: false, amount: 0.3}}
         className="lg:w-[38rem] lg:pl-14 lg:mr-8 mt-4 mb-10 md:mt-0">
           <div>
-            <img src={imagethree} alt="" />
+            <img src={fabrica} alt="" />
           </div>
         </motion.div>
 
@@ -54,15 +54,13 @@ const Pricing = () => {
         </motion.div>
       </div>
 
-      <div className="bg-verde mx-auto mt-20 rounded-full p-4 w-[80%] lg:w-auto">
-        <div className="flex flex-row items-center mx-auto">
-          <img className="w-14 mr-6" src={price} alt="" />
-          <p className="text-white text-[13px] leading-0 lg:text-2xl font-bold text-start lg:text-center">Premio al Mejor Modelo de Negocios Integral Zurich 2022</p>
-        </div>
+      <div className="bg-bordo mx-8 lg:mx-72  mt-20 rounded-full p-4">
+        <p className="text-white text-2xl lg:text-3xl  font-bold text-center ">Resguardamos tu Patrimonio</p>
+        
       </div>
       
     </Section>
   );
 };
 
-export default Pricing;
+export default Info;

@@ -30,6 +30,10 @@ import pdp from "./pdp.png";
 import linkedin from "./linkedin.png";
 import BgDesktop from "./portada.png";
 import price from "./price.png";
+import fabrica from "./fabrica.png";
+import seguros from "./seguros.png";
+
+
 
 
 
@@ -66,6 +70,17 @@ import imagetwo from "./collaboration/image2.png";
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
+import auto from "./services/auto.png";
+import bici from "./services/bici.png";
+import casa from "./services/casa.png";
+import perro from "./services/perro.png";
+import foco from "./services/foco.png";
+import negocios from "./services/negocios.png";
+import entretenimiento from "./services/entretenimiento.png";
+
+
+
+
 
 
 
@@ -139,7 +154,6 @@ export {
   yourlogo,
   Raices,
   price,
-  
   homeSmile,
   file02,
   searchMd,
@@ -168,8 +182,16 @@ export {
   raindrop,
   slack,
   service1,
+  auto,
+  bici,
+  casa,
+  perro,
+  foco,
+  seguros,
   service2,
   service3,
+  negocios,
+  entretenimiento,
   lines,
   stars,
   coins,
@@ -181,6 +203,7 @@ export {
   roadmap3,
   roadmap4,
   undone,
+  fabrica,
   notification1,
   notification2,
   notification3,

@@ -6,7 +6,7 @@ const Button = ({ className, onClick }) => (
       className="w-6 h-6"
       fill="none"
       viewBox="0 0 24 24"
-      stroke="black"
+      stroke="white"
     >
       <path
         strokeLinecap="round"

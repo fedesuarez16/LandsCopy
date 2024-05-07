@@ -1,4 +1,6 @@
 import SectionSvg from "../assets/svg/SectionSvg";
+import { background, Raices, BgDesktop } from "../assets";
+
 
 const Section = ({
   className,
@@ -20,7 +22,7 @@ const Section = ({
       ${className || ""}`}
     >
       {children}
-
+     
       
 
       {crosses && (

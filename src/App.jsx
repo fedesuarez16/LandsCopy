@@ -14,6 +14,8 @@ import Contact from "./components/Contact";
 import WorkWithUs from "./components/WorkWithUs";
 import Data from "./components/Data";
 import WhatsAppButton from "./components/WhatsappButton";
+import Info from "./components/Info";
+import InfoTwo from "./components/InfoTwo";
 
 
 
@@ -25,9 +27,10 @@ const App = () => {
         <Header />
         <Hero />
         <Pricing />
-        <Collaboration />
+        <Info/>
+        <Collaboration/>
+        <InfoTwo/>
         <Benefits />
-        <Services />
         <Roadmap />
         <Carousel/>
         <CarouselTwo/>

@@ -160,28 +160,28 @@ const Benefits = () => {
                   {/* items */}
                   <div className="grid text-start font-code lg:grid-cols-2 gap-4 mb-6">
                     <div className="flex items-center">
-                          <p className="body-2 font-semibold text-black">Seguros no tradicionales</p>
+                          <p className="body-2 font-semibold text-brown">· Seguros no tradicionales</p>
                     </div>
                     <div className="flex items-center">
-                          <p className="body-2 font-semibold text-black">Accidentes Personales. </p>
+                          <p className="body-2 font-semibold text-brown">· Accidentes Personales. </p>
                     </div>
                     <div className="flex items-center">
-                          <p className="body-2 font-semibold text-black">Deportistas</p>
+                          <p className="body-2 font-semibold text-brown">· Deportistas</p>
                     </div>
                     <div className="flex items-center">
-                          <p className="body-2 font-semibold text-black"> Deportes <p className="font-thin"> (Golf, aventura, deporte de riesgo) </p> </p>
+                          <p className="body-2 font-semibold text-brown">· Deportes <p className="font-thin"> (Golf, aventura, deporte de riesgo) </p> </p>
                     </div>
                     <div className="flex items-center">
-                          <p className="body-2 font-semibold text-black">Responsabilidad Civil Eventos y Ferias</p>
+                          <p className="body-2 font-semibold text-brown">· Responsabilidad Civil Eventos y Ferias</p>
                     </div>
                     <div className="flex items-center">
-                          <p className="body-2 font-semibold text-black"> Seguros de espectáculos <p className="font-thin">(seguros para participantes u organizadores)</p>  </p>
+                          <p className="body-2 font-semibold text-brown">· Seguros de espectáculos <p className="font-thin">(seguros para participantes u organizadores)</p>  </p>
                     </div>
                     <div className="flex items-center">
-                          <p className="body-2 font-semibold text-black"> Responsabilidad Civil Asociaciones <p className="font-thin">(clubes, asociaciones etc) </p>  </p>
+                          <p className="body-2 font-semibold text-brown">· Responsabilidad Civil Asociaciones <p className="font-thin">(clubes, asociaciones etc) </p>  </p>
                     </div>
                     <div className="flex items-center">
-                          <p className="body-2 font-semibold text-black"> Obras de arte   y Objetos de Valor</p>
+                          <p className="body-2 font-semibold text-brown">· Obras de arte   y Objetos de Valor</p>
                     </div>
                   </div>
 

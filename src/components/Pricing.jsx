@@ -17,6 +17,8 @@ const Pricing = () => {
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+
       </div>
       <div className="container mt-24 lg:flex">
         <motion.div 

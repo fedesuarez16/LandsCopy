@@ -7,9 +7,11 @@ import { fadeIn } from '../variants';
 const InfoTwo = () => {
   return (
     <Section id="nosotros" className="bg-custom relative">
-      <div className="absolute opacity-30 w-full h-full">
+        <div className="absolute opacity-30 h-full w-full">
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+
       </div>
+      
       <div className="container mt-12 lg:flex">
 
         <motion.div

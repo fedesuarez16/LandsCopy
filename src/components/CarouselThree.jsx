@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from "./Section";
-import { curve } from "../assets";
+import { curve, Raices } from "../assets";
 
 
 import Slider from 'react-slick';
@@ -12,6 +12,7 @@ import { gsi, net } from '../assets'; // Agrega la ruta de la imagen de subrayad
 const CarouselThree = () => {
   return (
     <section className='bg-custom'>
+      
       <div className='max-w-[1000px] mb-2 mx-auto'>
         <h2 className='text-center text-2xl text-black  font-bold mb-2'>Alianzas Estrategicas</h2>
         {/* Agrega la imagen de subrayado debajo del título */}

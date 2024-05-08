@@ -7,9 +7,15 @@ import { fadeIn } from '../variants'
 const Info = () => {
   return (
     <Section id="nosotros" className="bg-custom ">
-       <div className="absolute opacity-30   w-full">
+        <div className="absolute opacity-30 h-full w-full">
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        
+
+
+
+
       </div>
+       
       <div className="container mt-12 lg:flex">
         <motion.div 
           variants={fadeIn('right', 0.3)}

@@ -7,7 +7,15 @@ import { fadeIn } from '../variants'
 const Pricing = () => {
   return (
     <Section id="nosotros" className="bg-custom ">
-       <div className="absolute opacity-30   w-full">
+         <div className="absolute opacity-30 h-full w-full">
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
       </div>
       <div className="container mt-24 lg:flex">

@@ -52,6 +52,11 @@ import person1 from "./gaston.png";
 import person2 from "./sebastian.png";
 import person3 from "./francisco.png";
 
+import wsp from "./wpp.png";
+
+
+
+
 
 import imagethree from './image3.png';
 
@@ -200,6 +205,7 @@ export {
   bici,
   casa,
   perro,
+  wsp,
   foco,
   seguros,
   service2,

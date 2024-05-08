@@ -5,20 +5,7 @@ import Section from "./Section";
 const Benefits = () => {
   return (
     <section id="features" className="bg-custom">
-      <div className="absolute opacity-30 h-full w-full">
-        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
-        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
-        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
-        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
-        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
-        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
-        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
-        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
-
-
-
-
-      </div>
+    
      
       <div id="lineas" className="container  mt-10 lg:mt-0 text-center text-black relative z-2">
       

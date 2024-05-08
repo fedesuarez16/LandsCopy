@@ -1,4 +1,4 @@
-import { Raices, check, check2, imagetwo, curve } from "../assets";
+import { Raices, check, check2, imagetwo, curve, curveBordo, curveVerde } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
@@ -35,7 +35,7 @@ const     Collaboration = () => {
          className="max-w-[85rem] lg:px-12">
           <h2 className="text-xl font-extrabold text-bg mb-4 mt-12 md:mb-8">
            NUESTRAS PREMISAS COMERCIALES  
-          <img src={curve} alt="Subrayado" className=" w-32  relative lg:left-60 mb-2" />
+          <img src={curveBordo} alt="Subrayado" className=" w-32  relative lg:left-60 mb-2" />
           </h2>
 
 
@@ -52,7 +52,7 @@ const     Collaboration = () => {
 
           <h2 className="text-xl font-extrabold text-verde mb-4  md:mb-8">
            NUESTRA EXPERIENCIA
-           <img src={curve} alt="Subrayado" className=" w-32  relative lg:left-28 mb-2" />
+           <img src={curveVerde} alt="Subrayado" className=" w-32  relative lg:left-28 mb-2" />
 
           </h2>
 

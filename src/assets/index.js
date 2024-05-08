@@ -7,6 +7,7 @@ import gradient from "./gradient.png";
 import smallSphere from "./4-small.png";
 import grid from "./grid.png";
 import check2 from "./check-02.png";
+import check3 from "./check3.png";
 import loading1 from "./loading-01.svg";
 import yourlogo from "./yourlogo.png";
 import homeSmile from "./home-smile.svg";
@@ -56,6 +57,10 @@ import imagethree from './image3.png';
 
 
 import curve from "./hero/curve.png";
+import curveBordo from "./hero/curvebordo.png";
+import curveVerde from "./hero/curveverde.png";
+
+
 import heroBackground from "./hero/hero-background.png";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -150,6 +155,7 @@ export {
   brainwave,
   check,
   check2,
+  check3,
   loading1,
   brainwaveSymbol,
   brainwaveWhiteSymbol,
@@ -173,6 +179,8 @@ export {
   loading,
   background,
   curve,
+  curveVerde,
+  curveBordo,
   heroBackground,
   curve1,
   curve2,

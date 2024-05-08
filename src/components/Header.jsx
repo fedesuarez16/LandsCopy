@@ -64,7 +64,7 @@ const Header = () => {
     >
               <UpperBar/>
 
-      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
+      <div className="flex items-center z-10 px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[8rem] lg:w-[12rem] xl:mr-8" href="#hero">
           <img src={yourlogo} width={180} height={35} alt="Brainwave" />
         </a>
@@ -74,7 +74,7 @@ const Header = () => {
             openNavigation ? "flex" : "hidden"
           } fixed top-[5rem] left-0 right-0 bottom-0 bg-custom lg:static lg:flex lg:mx-auto lg:bg-transparent`}
         >
-          <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
+          <div className="relative z-0 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
               <a
                 key={item.id}
@@ -82,7 +82,7 @@ const Header = () => {
                 onClick={handleClick}
                 onMouseEnter={item.title === "Servicios" ? handleMouseEnter : null}
                 onMouseLeave={item.title === "Servicios" ? handleMouseLeave : null}
-                className={`block relative font-code text-2xl uppercase text-black transition-colors hover:text-color-1 ${
+                className={`block relative font-code text-2xl uppercase text-black z-0 transition-colors hover:text-color-1 ${
                   (item.onlyMobile && isMobile) ? "hidden lg:hidden" : "" // Condición para ocultar en dispositivos móviles
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                   item.url === pathname.hash
@@ -112,7 +112,7 @@ const Header = () => {
         </nav>
 
         <Button
-          className="ml-auto lg:hidden"
+          className="ml-auto z-10 lg:hidden"
           px="px-3"
           onClick={toggleNavigation}
         >

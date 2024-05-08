@@ -3,11 +3,15 @@ import Heading from "./Heading";
 import Section from "./Section";
 import Tagline from "./Tagline";
 import { roadmap } from "../constants";
-import { person1, person2, person3 } from "../assets";
+import { person1, person2, person3, Raices } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
-  <Section className="overflow-hidden bg-custom" id="roadmap">
+  <section className="overflow-hidden bg-custom" id="roadmap">
+    <div className="absolute opacity-30 w-full h-full">       
+
+
+      </div>
     <div className="container text-center mt-0 lg:mt-10 text-black">
       <Heading title="Management Lands" />
       
@@ -62,7 +66,7 @@ const Roadmap = () => (
           <p className="text-white mx-auto text-[14px] leading-0 lg:text-2xl font-bold text-center">Trabajamos con las Compañías Líderes del Mercado, garantizando Respuesta y Solvencia Financiera.</p>
         </div>
       </div>
-  </Section>
+  </section>
 );
 
 export default Roadmap;

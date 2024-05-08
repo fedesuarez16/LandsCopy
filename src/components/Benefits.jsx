@@ -4,16 +4,24 @@ import Section from "./Section";
 
 const Benefits = () => {
   return (
-    <Section id="features" className="bg-custom">
-      
-      <div id="lineas" className="container  mt-10 lg:mt-0 text-center text-black relative z-2">
-      <div className="absolute opacity-30    w-full">
+    <section id="features" className="bg-custom">
+      <div className="absolute opacity-30 h-full w-full">
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+        <img src={Raices} alt="Background" className="w-full h-full object-cover" />
+
+
 
 
       </div>
+     
+      <div id="lineas" className="container  mt-10 lg:mt-0 text-center text-black relative z-2">
+      
         <h3 className="text-6xl text-center text-yellow-950">Resguardo Patrimonial</h3>      
         <div   className="lg:gap-10 lg:px-32">
           <div className="block mx-auto relative t p-0.5 bg-no-repeat bg-[length:100%_100%]">
@@ -193,7 +201,7 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-    </Section>
+    </section>
   );
 };
 

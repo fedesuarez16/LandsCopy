@@ -1,5 +1,5 @@
 import Section from "./Section";
-import { seguros, Raices, check, curve } from "../assets";
+import { seguros, Raices, check3, curve } from "../assets";
 import { collabContent, collabText } from "../constants";
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
@@ -27,25 +27,25 @@ const InfoTwo = () => {
           <ul className="max-w-[33rem] mx-auto text-black mb-10 md:mb-14">
               <li  className="">
                 <div className="font-code flex items-center">
-                  <img src={check} width={8} height={8} alt="check" />
+                  <img src={check3} width={8} height={8} alt="check3" />
                   <h6 className="body-2 text-[15px] ml-5"> Tenemos vocación de servicio</h6>
                 </div>
               </li>
               <li  className="">
                 <div className="font-code flex items-center">
-                  <img src={check} width={8} height={8} alt="check" />
+                  <img src={check3} width={8} height={8} alt="check3" />
                   <h6 className="body-2 text-[15px] ml-5"> Contamos con capacidad de adaptación</h6>
                 </div>
               </li>
               <li  className="">
                 <div className="font-code flex items-center">
-                  <img src={check} width={8} height={8} alt="check" />
+                  <img src={check3} width={8} height={8} alt="check3" />
                   <h6 className="body-2 text-[15px] ml-5">  Atendemos con agilidad y dinamismo</h6>
                 </div>
               </li>
               <li  className="">
                 <div className="font-code flex items-center">
-                  <img src={check} width={8} height={8} alt="check" />
+                  <img src={check3} width={8} height={8} alt="check" />
                   <h6 className="body-2 text-[15px] ml-5">  Asesoramos profesionalmente</h6>
                 </div>
               </li>

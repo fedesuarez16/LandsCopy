@@ -8,7 +8,7 @@ import { fadeIn } from '../variants'
 
 const     Collaboration = () => {
   return (
-    <Section className="bg-custom  " crosses>
+    <Section className="bg-custom mx-10  lg:mb-20" crosses>
          <div className="absolute lg:hidden opacity-30 h-full w-full">
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
       </div>
@@ -22,7 +22,7 @@ const     Collaboration = () => {
          initial='hidden'
          whileInView={'show'}
          viewport={{once: false, amount: 0.3}}
-        className="lg:mx-auto items-center lg:w-[32rem]  xl:w-[38rem] mt-4">
+        className="lg:mx-auto items-center lg:w-{30rem}  xl:w-[38rem] mt-4">
           <div className="">
             <img src={imagetwo} alt="" />
           </div>

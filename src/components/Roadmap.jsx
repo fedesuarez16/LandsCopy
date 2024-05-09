@@ -43,8 +43,8 @@ const Roadmap = () => (
 
         {/* Bloques para dispositivos móviles */}
         <div className="lg:hidden mx-auto mb-40px">
-        <div className="flex flex-col items-center  bg-gris2 w-48 mx-auto  justify-center">
-            <img src={person2} alt="Person 2" className="w-44 mt-1 h-44 mb-2 object-contain" />
+        <div className="flex flex-col items-center mb-8 bg-gris2 w-48 mx-auto  justify-center">
+            <img src={person2} alt="Person 2" className="w-44 mt-1 h-44  object-contain" />
             <div className="text-center p-4">
               <h5 className="text-xl text-white font-bold mb-1">Sebastián Cancela</h5>
               <p className="text-sm text-white">Socio y Director General</p>
@@ -67,7 +67,7 @@ const Roadmap = () => (
     </div>
 
     
-    <div className="bg-bordo mx-auto mb-40 lg:mx-36 mt-20 rounded-full p-4 w-[80%] lg:w-auto">
+    <div id="alianzass" className="bg-bordo mx-auto mb-40 lg:mx-36 mt-20 rounded-full p-4 w-[80%] lg:w-auto">
         <div className="flex flex-row items-center p-4  ">
           <p className="text-white mx-auto  l text-[14px] leading-0 lg:text-3xl font-bold text-center">Trabajamos con las Compañías Líderes del Mercado, garantizando Respuesta y Solvencia Financiera.</p>
         </div>

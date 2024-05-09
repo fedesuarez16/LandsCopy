@@ -37,6 +37,9 @@ import ig from "./ig.png";
 import lkdn from "./lkdn.png";
 
 
+import andinaart from "./andinaart.png";
+
+
 
 
 
@@ -189,6 +192,7 @@ export {
   heroBackground,
   curve1,
   curve2,
+  andinaart,
   discord,
   figma,
   person1,

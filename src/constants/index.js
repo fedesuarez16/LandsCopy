@@ -47,7 +47,8 @@ import {
   provincia,
   credito,
   zurich,
-  universal
+  universal,
+  andinaart
 } from "../assets";
 
 export const navigation = [
@@ -64,7 +65,7 @@ export const navigation = [
   {
     id: "2",
     title: "Alianzas y Compañias",
-    url: "#alianzas",
+    url: "#alianzass",
   },
   {
     id: "3",
@@ -78,23 +79,23 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [  allianz,
-  berkley,
-  experta,
+export const companyLogos = [  zurich, allianz,
+  meridional,
   federacion,
   mercantil,
-  meridional,
+  berkley,
+  universal,
+  experta,
   credito,
-  zurich, 
-  universal
 ];
 
 export const art = [  
-  berkley,
   expertaart,
-  federacion,
   mercantil,
+  berkley,
   provincia,
+  federacion,
+  andinaart
 ];
 
 
@@ -156,7 +157,7 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    title: "Mas de 10.000 clientes",
+    title: "10.000 clientes",
     text: collabText,
   },
   {

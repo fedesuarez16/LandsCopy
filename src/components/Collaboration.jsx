@@ -8,7 +8,7 @@ import { fadeIn } from '../variants'
 
 const     Collaboration = () => {
   return (
-    <Section className="bg-custom  lg:mb-20" crosses>
+    <Section className="bg-custom  " crosses>
          <div className="absolute lg:hidden opacity-30 h-full w-full">
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
       </div>
@@ -22,8 +22,8 @@ const     Collaboration = () => {
          initial='hidden'
          whileInView={'show'}
          viewport={{once: false, amount: 0.3}}
-        className="lg:mx-auto xl:w-[38rem] mt-4">
-          <div>
+        className="lg:mx-auto items-center lg:w-[32rem]  xl:w-[38rem] mt-4">
+          <div className="">
             <img src={imagetwo} alt="" />
           </div>
          
@@ -35,14 +35,14 @@ const     Collaboration = () => {
          initial='hidden'
          whileInView={'show'}
          viewport={{once: false, amount: 0.3}}
-         className="max-w-[85rem] lg:px-12">
-          <h2 className="text-xl font-extrabold text-bg mb-4 mt-12 md:mb-8">
+         className="max-w-[85rem]  lg:px-12">
+          <h2 className="text-[1.3rem] font-extrabold text-bg  mt-12 md:mb-2">
            NUESTRAS PREMISAS COMERCIALES  
-          <img src={curveBordo} alt="Subrayado" className=" w-32  relative lg:left-60 mb-2" />
+          <img src={curveBordo} alt="Subrayado" className=" w-32  h-2 relative lg:left-60 " />
           </h2>
 
 
-          <ul className="max-w-[22rem]  text-black mb-2 md:mb-14">
+          <ul className="max-w-[22rem]  text-black mb-10 md:mb-8">
             {collabContent.map((item) => (
               <li className="" key={item.id}>
                 <div className="flex font-code items-center">
@@ -53,14 +53,14 @@ const     Collaboration = () => {
             ))}
           </ul>
 
-          <h2 className="text-xl font-extrabold text-verde mb-4  md:mb-8">
+          <h2 className="text-[1.3rem] font-extrabold text-verde   md:mb-2">
            NUESTRA EXPERIENCIA
-           <img src={curveVerde} alt="Subrayado" className=" w-32  relative lg:left-28 mb-2" />
+           <img src={curveVerde} alt="Subrayado" className=" w-32  relative lg:left-28 " />
 
           </h2>
 
 
-          <ul className="max-w-[22rem] leading-1 text-black mb-10 md:mb-14">
+          <ul className="max-w-[22rem]  text-black mb-10 md:mb-8">
             {collabContent.map((item) => (
               <li className="" key={item.id}>
                 <div className="flex font-code items-center">

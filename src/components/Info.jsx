@@ -40,7 +40,7 @@ const Info = () => {
             {collabContent.map((item) => (
               <li className="mb-2" key={item.id}>
                 {item.text && (
-                  <p className="body-2 font-code mb-12 leading-6 text-[18px] text-black">
+                  <p className="body-2 font-code  leading-6 text-[17px] text-black">
                       Nos destacamos por nuestra <b className="font-bold"> independencia e imparcialidad </b> y porque seleccionamos para nuestros clientes las opciones que consideramos más adecuadas para cada necesidad de cobertura. <br /> <br />
 
 

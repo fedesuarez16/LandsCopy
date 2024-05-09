@@ -51,7 +51,7 @@ const Carousel = () => {
   return (
     <section id="alianzas" className='bg-custom'>
       <div className='max-w-[1000px] mx-auto'>
-        <h2 className='text-center text-2xl text-black  font-bold mb-2'>Seguros Patrimoniales</h2>
+        <h2 className='text-center text-2xl text-bg  font-bold mb-2'>Seguros Patrimoniales</h2>
         {/* Aquí agregamos la imagen como subrayado */}
         <img src={curve} alt="Subrayado" className="mx-auto " />
         <Slider {...settings}>

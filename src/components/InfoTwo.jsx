@@ -19,36 +19,36 @@ const InfoTwo = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className="flex flex-col justify-center mx-auto  lg:w-[29rem] lg:pl-14 lg:mr-8 mt-4 mb-10 md:mt-0"
+          className="flex flex-col justify-center mx-auto  lg:w-[39rem] lg:pl-14 lg:mr-8 mt-4 mb-10 md:mt-0"
         >
 
-          <h4 className="text-4xl text-brown">Primero el Cliente
-            <img src={curve} alt="Subrayado" className="w-32 relative lg:left-40 mb-2" />
+          <h4 className="text-3xl uppercase text-start text-brown">Primero el Cliente
+            <img src={curve} alt="Subrayado" className="w-32 relative lg:left-48 mb-2" />
           </h4>
 
-          <ul className="max-w-[33rem] mx-auto text-black mb-10 md:mb-14">
-              <li  className="">
+          <ul className="max-w-[39rem] mx-auto text-black mb-10 md:mb-14">
+              <li  className="max-w-[39rem] ">
                 <div className="font-code flex items-center">
                   <img src={check3} width={8} height={8} alt="check3" />
-                  <h6 className="body-2 text-[15px] ml-5"> Tenemos vocación de servicio</h6>
+                  <h6 className="body-2 text-[18px] ml-5"> Tenemos vocación de servicio</h6>
                 </div>
               </li>
               <li  className="">
                 <div className="font-code flex items-center">
                   <img src={check3} width={8} height={8} alt="check3" />
-                  <h6 className="body-2 text-[15px] ml-5"> Contamos con capacidad de adaptación</h6>
+                  <h6 className="body-2 text-[18px] ml-5"> Contamos con capacidad de adaptación</h6>
                 </div>
               </li>
               <li  className="">
                 <div className="font-code flex items-center">
                   <img src={check3} width={8} height={8} alt="check3" />
-                  <h6 className="body-2 text-[15px] ml-5">  Atendemos con agilidad y dinamismo</h6>
+                  <h6 className="body-2 text-[18px] ml-5">  Atendemos con agilidad y dinamismo</h6>
                 </div>
               </li>
               <li  className="">
                 <div className="font-code flex items-center">
                   <img src={check3} width={8} height={8} alt="check" />
-                  <h6 className="body-2 text-[15px] ml-5">  Asesoramos profesionalmente</h6>
+                  <h6 className="body-2 text-[18px] ml-5">  Asesoramos profesionalmente</h6>
                 </div>
               </li>
           </ul>

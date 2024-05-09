@@ -19,7 +19,7 @@ const InfoTwo = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className="flex flex-col justify-center mx-auto  lg:w-[39rem] lg:pl-14 lg:mr-8 mt-4 mb-10 md:mt-0"
+          className="flex flex-col justify-center mx-auto gap-0  lg:w-[39rem] lg:pl-14 lg:mr-8 mt-4 mb-10 md:mt-0"
         >
 
           <h4 className="text-3xl uppercase text-start text-brown">Primero el Cliente

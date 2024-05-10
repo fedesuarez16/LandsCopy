@@ -1,5 +1,5 @@
 import { Raices, check, check2, imagetwo, curve, curveBordo, curveVerde } from "../assets";
-import { collabApps, collabContent, collabText } from "../constants";
+import { collabApps, collabContent, collabText, premisas } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
@@ -43,7 +43,7 @@ const     Collaboration = () => {
 
 
           <ul className="max-w-[22rem]  text-black mb-10 md:mb-8">
-            {collabContent.map((item) => (
+            {premisas.map((item) => (
               <li className="" key={item.id}>
                 <div className="flex font-code items-center">
                   <img src={check2} width={8} height={8} alt="check" />

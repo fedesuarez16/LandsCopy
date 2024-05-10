@@ -170,6 +170,21 @@ export const collabContent = [
   },
 ];
 
+export const premisas = [
+  {
+    id: "0",
+    title: "Compañías de Primer Nivel ",
+  },
+  {
+    id: "1",
+    title: "La Cobertura Adecuada",
+  },
+  {
+    id: "2",
+    title: "El Menor Valor del Mercado ",
+  },
+];
+
 export const collabApps = [
   {
     id: "0",

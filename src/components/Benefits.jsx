@@ -23,7 +23,7 @@ const Benefits = () => {
 
 
               {/* items */}
-              <div className="grid font-code lg:w-[50rem] text-start lg:grid-cols-2 gap-4 mb-6">
+              <div className="grid font-code lg:w-[50rem] text-start lg:grid-cols-2 gap-2 mb-2">
           
                 <div className="flex items-center text-start">
                   <p className="body-2 font-semibold  text-brown">· Automotores – Moto - Embarcaciones</p>
@@ -37,8 +37,8 @@ const Benefits = () => {
                 <div className="flex items-center">
                 <p className="body-2 font-semibold text-brown">· Responsabilidad Civil y Mala Praxis Profesional </p>
                 </div>
-                <div className="flex items-center">
-                  <p className="body-2 font-semibold text-brown">· Movilidad <p className="font-thin"> (Bicicletas, monopatín, etc) </p> </p>
+                <div className="flex items-center" >
+                  <p className="body-2 font-semibold text-brown" >· Movilidad <p className="font-thin"style={{ display: 'inline-block' }}  > (Bicicletas, monopatín, etc) </p> </p>
                 </div>
                 <div className="flex items-center">
                   <p className="body-2 font-semibold text-brown">· Vida y Salud </p>
@@ -155,7 +155,7 @@ const Benefits = () => {
   <div className="flex items-center">
     <p className="body-2 font-semibold text-brown">
       · Deportes 
-      <p className="font-thin" style={{ display: 'inline-block' }}> (Golf, aventura, deporte de riesgo) </p>
+      <p className="font-thin"> (Golf, aventura, deporte de riesgo) </p>
     </p>
   </div>
   <div className="flex items-center">

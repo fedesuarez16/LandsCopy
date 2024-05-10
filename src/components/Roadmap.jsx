@@ -12,7 +12,7 @@ const Roadmap = () => (
 
 
       </div>
-    <div className="container text-center mt-0 lg:mt-10 text-black">
+    <div className="container text-center mt-0 lg:mt-10 text-bg">
       <Heading title="Management Lands" />
       
       <div className="lg:grid lg:grid-cols-2 mx-auto font-code font-thin">

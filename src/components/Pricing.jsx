@@ -65,7 +65,7 @@ const Pricing = () => {
       </div>
       <div className="flex justify-center items-center h-full">
   <div className="bg-verde mt-20 rounded-full p-4 w-[80%] lg:w-auto">
-    <div className="flex flex-row mx-10 items-center">
+    <div className="flex flex-row lg:mx-10 items-center">
       <img className="w-14" src={price} alt="" />
       <p className="text-white text-[13px] leading-0 lg:text-2xl font-bold ml-2">Premio al Mejor Modelo de Negocios Integral Zurich 2022</p>
     </div>

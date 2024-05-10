@@ -43,7 +43,7 @@ const Roadmap = () => (
 
         {/* Bloques para dispositivos móviles */}
         <div className="lg:hidden mx-auto mb-40px">
-        <div className="flex flex-col items-center mb-8 bg-gris2 w-48 mx-auto  justify-center">
+        <div className="flex flex-col items-center mb-12 bg-gris2 w-48 mx-auto  justify-center">
             <img src={person2} alt="Person 2" className="w-44 mt-1 h-44  object-contain" />
             <div className="text-center p-4">
               <h5 className="text-xl text-white font-bold mb-1">Sebastián Cancela</h5>

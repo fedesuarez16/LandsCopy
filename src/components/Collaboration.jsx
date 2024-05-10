@@ -8,7 +8,7 @@ import { fadeIn } from '../variants'
 
 const     Collaboration = () => {
   return (
-    <Section className="bg-custom mx-10  lg:mb-20" crosses>
+    <Section className="bg-custom lg:mx-10  lg:mb-20" crosses>
          <div className="absolute lg:hidden opacity-30 h-full w-full">
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
       </div>
@@ -36,7 +36,7 @@ const     Collaboration = () => {
          whileInView={'show'}
          viewport={{once: false, amount: 0.3}}
          className="max-w-[85rem]  lg:px-12">
-          <h2 className="text-[1.3rem] font-extrabold text-bg  mt-12 md:mb-2">
+          <h2 className="text-[1.4rem] font-extrabold text-bg  mt-12 md:mb-2">
            NUESTRAS PREMISAS COMERCIALES  
           <img src={curveBordo} alt="Subrayado" className=" w-32  h-2 relative lg:left-60 " />
           </h2>
@@ -55,7 +55,7 @@ const     Collaboration = () => {
 
           <h2 className="text-[1.3rem] font-extrabold text-verde   md:mb-2">
            NUESTRA EXPERIENCIA
-           <img src={curveVerde} alt="Subrayado" className=" w-32  relative lg:left-28 " />
+           <img src={curveVerde} alt="Subrayado" className=" w-32  relative left-28 " />
 
           </h2>
 

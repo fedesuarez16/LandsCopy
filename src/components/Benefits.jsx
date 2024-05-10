@@ -145,7 +145,7 @@ const Benefits = () => {
               </div>
 
               {/* items */}
-<div className="grid text-start font-code  lg:w-[60rem] gap-2 mb-6">
+<div className="grid text-start font-code  lg:w-[49rem] gap-2 mb-6">
   <div className="flex items-center">
     <p className="body-2 font-semibold text-brown">· Seguros NO tradicionales</p>
   </div>

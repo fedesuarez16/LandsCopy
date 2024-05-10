@@ -22,11 +22,11 @@ const InfoTwo = () => {
           className="flex flex-col justify-center mx-auto gap-0  lg:w-[28rem] lg:pl-14 lg:mr-8 mt-4 mb-10 md:mt-0"
         >
 
-          <h4 className="text-3xl uppercase text-start text-brown">Primero el Cliente
-            <img src={curve} alt="Subrayado" className="w-32 relative lg:left-48 mb-2" />
+          <h4 className=" text-2xl lg:text-3xl uppercase text-start text-brown">Primero el Cliente
+            <img src={curve} alt="Subrayado" className="  w-32 relative left-32 lg:left-48 mb-2" />
           </h4>
 
-          <ul className="w-[25rem] mx-auto text-black mb-10 md:mb-14">
+          <ul className="lg:w-[29rem] mx-auto text-black mb-10 md:mb-14">
               <li  className="max-w-[39rem] ">
                 <div className="font-code flex items-center">
                   <img src={check3} width={8} height={8} alt="check3" />

@@ -154,20 +154,17 @@ const Benefits = () => {
   </div>
   <div className="flex items-center">
     <p className="body-2 font-semibold text-brown">
-      · Deportes 
-      <p className="font-thin"> (Golf, aventura, deporte de riesgo) </p>
+      · Deportes <p className="font-thin"style={{ display: 'inline-block' }}  >  (Golf, aventura, deporte de riesgo) </p>
     </p>
   </div>
   <div className="flex items-center">
     <p className="body-2 font-semibold text-brown">
-      · Responsabilidad Civil - Eventos y Ferias 
-      <p className="font-thin" style={{ display: 'inline-block' }}> (Clubes, Asociaciones etc) </p>
+      · Responsabilidad Civil - Eventos y Ferias <p className="font-thin" style={{ display: 'inline-block' }}> (Clubes, Asociaciones etc) </p>
     </p>
   </div>
   <div className="flex items-center">
     <p className="body-2 font-semibold text-brown">
-      · Seguros de espectáculos 
-      <p className="font-thin" style={{ display: 'inline-block' }}>(seguros para participantes u organizadores)</p>  
+      · Seguros de espectáculos  <p className="font-thin" style={{ display: 'inline-block' }}>(seguros para participantes u organizadores)</p>  
     </p>
   </div>
   <div className="flex items-center">

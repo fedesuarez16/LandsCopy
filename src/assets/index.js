@@ -135,9 +135,13 @@ import benefitImage2 from "./benefits/image-2.png";
 
 import allianz from "./logos/allianz.png";
 import berkley from "./logos/berkley.png";
+import berkleyclean from "./berkleyclean.png";
+
 import experta from "./logos/experta.png";
 import expertaart from "./logos/expertaart.png";
 import federacion from "./logos/federacion.png";
+import federacionart from "./federacionart.png";
+
 import gsi from "./logos/gsi.png";
 import mercantil from "./logos/mercantil.png";
 import meridional from "./logos/meridional.png";
@@ -255,9 +259,11 @@ export {
 
   allianz,
   berkley,
+  berkleyclean,
   experta,
   expertaart,
   federacion,
+  federacionart,
   gsi,
   mercantil,
   meridional,

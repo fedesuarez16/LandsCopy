@@ -48,7 +48,9 @@ import {
   credito,
   zurich,
   universal,
-  andinaart
+  andinaart,
+  federacionart,
+  berkleyclean
 } from "../assets";
 
 export const navigation = [
@@ -83,7 +85,7 @@ export const companyLogos = [  zurich, allianz,
   meridional,
   federacion,
   mercantil,
-  berkley,
+  berkleyclean,
   universal,
   experta,
   credito,
@@ -94,7 +96,7 @@ export const art = [
   mercantil,
   berkley,
   provincia,
-  federacion,
+  federacionart,
   andinaart
 ];
 

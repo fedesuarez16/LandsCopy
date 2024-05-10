@@ -93,7 +93,6 @@ export const companyLogos = [  zurich, allianz,
 
 export const art = [  
   expertaart,
-  mercantil,
   berkley,
   provincia,
   federacionart,

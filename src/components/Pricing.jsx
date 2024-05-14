@@ -20,7 +20,7 @@ const Pricing = () => {
 
       </div>
 
-      <div className="container mt-36 h-auto lg:flex">
+      <div className="container mt-28 lg:mt-36 h-auto lg:flex">
         <motion.div 
           variants={fadeIn('right', 0.3)}
           initial='hidden'

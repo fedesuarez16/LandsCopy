@@ -36,9 +36,9 @@ const     Collaboration = () => {
          whileInView={'show'}
          viewport={{once: false, amount: 0.3}}
          className="max-w-[85rem]  lg:px-5">
-          <h2 className="text-[1.6rem] font-extrabold text-bg  mt-12 md:mb-2">
+          <h2 className="text-[1.3rem] font-extrabold text-bg mt-12 md:mb-2">
            NUESTRAS PREMISAS COMERCIALES  
-          <img src={curveBordo} alt="Subrayado" className=" w-32  h-2 relative lg:left-[310px] " />
+          <img src={curveBordo} alt="Subrayado" className=" w-32  h-2 relative sm2:left-[240px] lg:left-[240px] " />
           </h2>
 
 

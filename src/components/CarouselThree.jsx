@@ -17,10 +17,11 @@ const CarouselThree = () => {
         <h2 className='text-center text-2xl text-bg  font-bold mb-2'>Alianzas Estrategicas</h2>
         {/* Agrega la imagen de subrayado debajo del título */}
         <img src={curve} alt="Subrayado" className="mx-auto mb-2" />
-        <div  id='contacto' className="flex gap-8 px-32 justify-center items-center">
+        <div    className="flex gap-8 px-32 justify-center items-center">
           <img src={gsi} alt="Logo 1" className="w-52 h-52 object-contain" />
-          <img src={net} alt="Logo 2" className="w-52 h-52 object-contain" />
+          <img  src={net} alt="Logo 2" className="w-52 h-52 object-contain" />
         </div>
+      <p className='relative bottom-[7.5rem]' id='contacto'></p>
       </div>
     </section>
   );

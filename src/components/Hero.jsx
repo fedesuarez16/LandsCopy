@@ -27,7 +27,7 @@ const Hero = () => {
         <h1 className="text-4xl font-light lg:text-7xl text-bg mb-4">
           Somos un <b> Broker</b>  <br /> con Fuerza Natural        </h1>
         <p className="text-xl lg:text-4xl leading-7 font-light w-full lg:w-2/3 text-bg mb-8">
-Con <b  className='font-bold'>LANDS</b>, tu mundo esta protegido.
+Con <b  className='font-bold'>LANDS</b>, tu mundo está protegido.
         </p>
         {/* Other elements of the hero, such as buttons, etc. */}
       </div>

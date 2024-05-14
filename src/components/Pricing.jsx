@@ -6,7 +6,7 @@ import { fadeIn } from '../variants'
 
 const Pricing = () => {
   return (
-    <Section id="nosotros" className="bg-custom mx-4">
+    <Section  id="nosotros"   className="bg-custom mx-4">
          <div className="absolute opacity-30 h-full w-full">
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
@@ -20,13 +20,13 @@ const Pricing = () => {
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
 
       </div>
-      <div className="container mt-24 lg:flex">
+      <div className="container mt-32 lg:flex">
         <motion.div 
           variants={fadeIn('right', 0.3)}
           initial='hidden'
           whileInView={'show'}
           viewport={{once: false, amount: 0.3}}
-        className="lg:w-[38rem] lg:pl-14 lg:mr-8 mt-4 mb-10 md:mt-0">
+        className="lg:w-[38rem]  lg:pl-14 lg:mr-8 mt-4 mb-10 md:mt-0">
           <div>
             <img src={imagethree} alt="" />
           </div>

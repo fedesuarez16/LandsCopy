@@ -13,7 +13,7 @@ const Benefits = () => {
         <div   className="lg:gap-10 lg:px-32">
           <div className="block mx-auto relative t p-0.5 bg-no-repeat bg-[length:100%_100%]">
             <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem]">
-              <h5   className="h5 lg:text-5xl mx-auto lg:w-[440px] mb-14 lg:mb-20 py-2 px-2 text-white bg-verde">Líneas personales</h5>
+              <h5   className="h5 lg:text-5xl mx-auto lg:w-[440px] mb-14 lg:mb-10 py-2 px-2 text-white bg-verde">Líneas personales</h5>
               <div class="flex justify-center items-center mb-14">
                 <img src={casa} alt="Imagen 1" class="w-22 mx-1"/>
                 
@@ -60,7 +60,7 @@ const Benefits = () => {
                   contactoElement.scrollIntoView({ behavior: 'smooth' });
                 }
               }}
-              className="flex bg-bordo  w-32 py-4  rounded-md items-center mt-16">
+              className="flex bg-bordo  w-32 py-3 rounded-md items-center mt-2">
               <p id="negocios" className="font-code text-[15px] mx-auto font-semibold text-white  tracking-wider">
                   Contactate
                 </p>
@@ -69,13 +69,13 @@ const Benefits = () => {
              
            
 
-              <h5  className="h5 lg:text-5xl lg:w-[490px] py-2 px-2 mb-20 text-center mx-auto  mt-24 text-white bg-brown">Negocios y Empresas</h5>
-              <div class="flex justify-center items-center mb-16">
+              <h5  className="h5 lg:text-5xl lg:w-[490px] py-2 px-2 mb-10 text-center mx-auto  mt-24 text-white bg-brown">Negocios y Empresas</h5>
+              <div class="flex justify-center items-center mb-10">
                 <img src={negocios} alt="Imagen 1" class="w-22 mx-1"/>
               </div>
 
                 {/* items 2 */}
-                <div className="grid text-start text-brown font-code lg:w-[59rem] lg:grid-cols-2 gap-4 mb-6">
+                <div className="grid text-start text-brown font-code lg:w-[59rem] lg:grid-cols-2 gap-1 mb-2">
                   
                   <div className="flex items-center">
                       <p className="body-2 font-semibold text-brown">· Incendio</p>
@@ -133,14 +133,14 @@ const Benefits = () => {
                     contactoElement.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}
-                className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-16">
+                className="flex bg-bordo  w-32 py-3 px-6 rounded-md items-center mt-2">
                 <p id="entretenimiento"  className="font-code text-[15px] font-semibold text-white  tracking-wider">
                   Escribinos
                 </p>
               </div>
 
-              <h5 className="h5 lg:text-5xl lg:w-[540px] mb-20 py-2 px-2 mx-auto  mt-24 text-white bg-bordo">Entretenimiento y Ocio</h5>
-              <div class="flex justify-center items-center mb-16">
+              <h5 className="h5 lg:text-5xl lg:w-[540px] mb-10 py-2 px-2 mx-auto  mt-24 text-white bg-bordo">Entretenimiento y Ocio</h5>
+              <div class="flex justify-center items-center mb-10">
                 <img src={entretenimiento} alt="Imagen 1" class="w-22 mx-1"/>
               </div>
 
@@ -180,7 +180,7 @@ const Benefits = () => {
                       contactoElement.scrollIntoView({ behavior: 'smooth' });
                     }
                   }}
-                  className="flex bg-bordo  w-32 py-4 px-6 rounded-md items-center mt-16">
+                  className="flex bg-bordo  w-32 py-3 px-6 rounded-md items-center mt-2">
                 <p className="font-code text-[15px] font-semibold text-white  tracking-wider">
                   Llamanos
                 </p>

@@ -66,7 +66,7 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "Alianzas y Compañias",
+    title: "Alianzas y Compañías",
     url: "#alianzass",
   },
   {

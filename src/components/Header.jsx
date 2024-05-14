@@ -92,14 +92,14 @@ const Header = () => {
               >
                 {item.title}
                 {item.title === "Servicios" && showSubmenu && (
-                  <div className="absolute left-0 mt-2 p-2  bg-custom w-[230px] rounded-lg shadow-lg" >
-                    <a href="#lineas" className="block py-2 px-4 text-[12px] text-black hover:bg-gray-200">
-                      Lineas Personales
+                  <div className="absolute left-0 mt-2 p-2  bg-custom w-[260px] rounded-sm shadow-lg" >
+                    <a href="#lineas" className="block py-2 px-4 text-[17px] text-black hover:bg-gray-200">
+                      Líneas Personales
                     </a>
-                    <a href="#negocios" className="block py-2 font-code px-4 text-[12px] text-black hover:bg-gray-200">
+                    <a href="#negocios" className="block py-2 font-code px-4 text-[17px] text-black hover:bg-gray-200">
                       Negocios y Empresas
                     </a>
-                    <a href="#entretenimiento" className="block py-2 font-code px-4 text-[12px] text-black hover:bg-gray-200">
+                    <a href="#entretenimiento" className="block py-2 font-code px-4 text-[17px] text-black hover:bg-gray-200">
                       Entretenimiento y Ocio
                     </a>
                   </div>

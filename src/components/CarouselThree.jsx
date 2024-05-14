@@ -14,7 +14,7 @@ const CarouselThree = () => {
     <section  className='bg-custom'>
       
       <div className='max-w-[1000px] mb-2 mx-auto'>
-        <h2 className='text-center text-2xl text-bg  font-bold mb-2'>Alianzas Estrategicas</h2>
+        <h2 className='text-center text-2xl text-bg  font-bold mb-2'>Alianzas Estratégicas</h2>
         {/* Agrega la imagen de subrayado debajo del título */}
         <img src={curve} alt="Subrayado" className="mx-auto mb-2" />
         <div    className="flex gap-8 px-32 justify-center items-center">

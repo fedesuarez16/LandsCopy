@@ -31,7 +31,7 @@ Con <b  className='font-bold'>LANDS</b>, tu mundo esta protegido.
         </p>
         {/* Other elements of the hero, such as buttons, etc. */}
       </div>
-      <p className='absolute top-[550px]' id="nosotros"></p>
+      <p className='absolute top-[650px] lg:top-[550px]' ></p>
     </section>
   );
 };

@@ -5,7 +5,7 @@ import WhatsAppButton from './WhatsappButton';
 
 const Hero = () => {
   return (
-    <section id='hero' className=" relative bg-cover  z-10 bg-center h-screen lg:h-[100vh] flex items-center">
+    <section id='hero' className=" relative bg-cover   z-10 bg-center h-screen lg:h-[100vh] flex items-center">
       {/* Background image container positioned at the right side */}
       <div className="absolute inset-0 z-0 left-auto right-0">
         <img src={BgDesktop} alt="Background" className="w-full  h-full object-cover" />
@@ -31,6 +31,7 @@ Con <b  className='font-bold'>LANDS</b>, tu mundo esta protegido.
         </p>
         {/* Other elements of the hero, such as buttons, etc. */}
       </div>
+      <p className='absolute top-[550px]' id="nosotros"></p>
     </section>
   );
 };

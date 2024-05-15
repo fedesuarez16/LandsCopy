@@ -4,13 +4,13 @@ import Section from "./Section";
 
 const Benefits = () => {
   return (
-    <section id="features" className="bg-custom">
+    <section  className="bg-custom">
     
-     
+     <p  id="features" className="relative top-10 lg:bottom-0"></p>
       <div className="container  mt-10 lg:mt-0 text-center text-black relative z-2">
       
         <h3 id="lineas"  className="text-6xl lg:mb-8 text-center text-yellow-950">Resguardo Patrimonial</h3>      
-        <div   className="lg:gap-10 lg:px-32">
+        <div className="lg:gap-10 lg:px-32">
           <div className="block mx-auto relative t p-0.5 bg-no-repeat bg-[length:100%_100%]">
             <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem]">
               <h5   className="h5 lg:text-5xl mx-auto lg:w-[440px] mb-14 lg:mb-10 py-2 px-2 text-white bg-verde">Líneas personales</h5>

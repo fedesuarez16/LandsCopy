@@ -21,7 +21,7 @@ const CarouselThree = () => {
           <img src={gsi} alt="Logo 1" className="w-52 h-52 object-contain" />
           <img  src={net} alt="Logo 2" className="w-52 h-52 object-contain" />
         </div>
-      <p className='relative bottom-[7.5rem]' id='contacto'></p>
+      <p className='relative bottom-[5.1rem] lg:bottom-[7rem]' id='contacto'></p>
       </div>
     </section>
   );

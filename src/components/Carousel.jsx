@@ -49,7 +49,7 @@ const settings = {
 
 const Carousel = () => {
   return (
-    <section   id="alianzass" className='bg-custom  '>
+    <section    className='bg-custom  '>
         <h2 className='text-center text-2xl text-bg  font-bold mb-2'>Seguros Patrimoniales</h2>
       <div  className='max-w-[1000px] mx-auto'>
         {/* Aquí agregamos la imagen como subrayado */}

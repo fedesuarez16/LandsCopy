@@ -51,8 +51,8 @@ import andinaart from "./andinaart.png";
 
 
 
-import person1 from "./gaston.png";
-import person2 from "./sebastian.png";
+import person1 from "./gaston.jpeg";
+import person2 from "./sebastian.jpeg";
 import person3 from "./francisco.png";
 
 import wsp from "./wpp.png";

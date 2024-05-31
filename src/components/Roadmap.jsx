@@ -16,15 +16,16 @@ const Roadmap = () => (
       <div className="lg:grid lg:grid-cols-2 mx-auto font-code font-thin">
         {/* Primer bloque */}
 
-        <div className="hidden lg:flex mx-auto h-[180px] bg-gris2 mb-40px w-[450px] gap-1  items-center justify-center">
-          <div>
-            <img src={person2} alt="Person 2" className="w-44 relative right-8 h-44 object-contain" />
-          </div>
-          <div className="text-start">
-            <h5 className="text-xl text-white font-bold mb-1">Sebastián Cancela</h5>
-            <p className="text-sm text-white">Socio y Director General </p>
-          </div>
+       
+        <div className="hidden lg:flex mx-auto h-[180px] bg-gris2 mb-10 w-[450px] gap-1 items-center justify-center">
+        <div className="w-2/4 py-1 px-1 h-full">
+          <img src={person2} alt="Person 1" className="w-full h-full object-cover" />
         </div>
+        <div className="text-start w-3/4">
+          <h5 className="text-xl text-white font-bold mb-1">Sebastián Cancela</h5>
+          <p className="text-sm text-white">Socio y Director General</p>
+        </div>
+      </div>
 
 
         <div className="hidden lg:flex mx-auto h-[180px] bg-gris2 mb-10 w-[450px] gap-1 items-center justify-center">
@@ -57,6 +58,7 @@ const Roadmap = () => (
               <p className="text-sm text-white">Jefe Operativo</p>
             </div>
           </div>
+          
         
         </div>
       </div>

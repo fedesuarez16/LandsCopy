@@ -16,6 +16,8 @@ import Data from "./components/Data";
 import WhatsAppButton from "./components/WhatsappButton";
 import Info from "./components/Info";
 import InfoTwo from "./components/InfoTwo";
+import Subtitles from "./components/Subtitles";
+import ScrollDownArrow from "./components/ScrollDownArrow";
 
 
 
@@ -30,8 +32,9 @@ const App = () => {
         <Info/>
         <Collaboration/>
         <InfoTwo/>
-        <Benefits />
         <Roadmap />
+        <Benefits />
+        <Subtitles/>
         <Carousel/>
         <CarouselTwo/>
         <CarouselThree/>

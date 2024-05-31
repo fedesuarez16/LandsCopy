@@ -6,7 +6,7 @@ import { fadeIn } from '../variants'
 
 const Info = () => {
   return (
-    <Section id="nosotros" className="bg-custom mx-2">
+    <Section id="nosotros" className="bg-custom mx-2 mb-10">
         <div className="absolute opacity-30 h-full w-full">
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
         
@@ -54,8 +54,8 @@ const Info = () => {
         </motion.div>
       </div>
 
-      <div className="bg-bordo mx-8 lg:mx-80  mt-20 rounded-full p-4">
-        <p className="text-white text-2xl lg:text-3xl  font-bold text-center ">Resguardamos tu Patrimonio</p>
+      <div id="premisas" className="bg-bordo mx-8 lg:mx-80  mt-20 rounded-full p-4">
+        <p  className="text-white text-2xl lg:text-3xl  font-bold text-center ">Resguardamos tu Patrimonio</p>
         
       </div>
       

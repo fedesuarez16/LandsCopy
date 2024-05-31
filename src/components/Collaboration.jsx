@@ -8,7 +8,7 @@ import { fadeIn } from '../variants'
 
 const     Collaboration = () => {
   return (
-    <Section className="bg-custom lg:mx-10  lg:mb-20" crosses>
+    <Section  className="bg-custom lg:mx-10  lg:mb-20" crosses>
          <div className="absolute lg:hidden opacity-30 h-full w-full">
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
       </div>

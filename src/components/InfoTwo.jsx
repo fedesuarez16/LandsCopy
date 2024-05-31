@@ -46,29 +46,30 @@ const InfoTwo = () => {
                 </div>
               </li>
               <li  className="">
-                <div className="font-code flex items-center">
+                <div  className="font-code flex items-center">
                   <img src={check3} width={8} height={8} alt="check" />
-                  <h6 className="body-2 text-[18px] ml-5">  Asesoramos profesionalmente</h6>
+                  <h6  className="body-2 text-[18px] ml-5">  Asesoramos profesionalmente</h6>
                 </div>
               </li>
           </ul>
+              <a id="management" href=""></a>
 
         </motion.div>
 
         <motion.div
+        
           variants={fadeIn('left', 0.3)}
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
           className="flex items-center justify-center lg:w-[44rem] lg:pl-44 lg:mr-8 mt-4 mb-10 md:mt-0"
         >
-          <div className="flex w-[28rem] items-center justify-normal">
-            <img src={seguros} alt="" />
+          <div   className="flex w-[28rem] items-center justify-normal">
+            <img  src={seguros} alt="" />
           </div>
         </motion.div>
       </div>
 
-      <div id="alianzas" ></div>
 
     </Section>
   );

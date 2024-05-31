@@ -40,25 +40,10 @@ import lkdn from "./lkdn.png";
 import andinaart from "./andinaart.png";
 
 
-
-
-
-
-
-
-
-
-
-
-
 import person1 from "./gaston.jpeg";
 import person2 from "./sebastian.jpeg";
-import person3 from "./francisco.png";
 
 import wsp from "./wpp.png";
-
-
-
 
 
 import imagethree from './image3.png';
@@ -201,7 +186,6 @@ export {
   figma,
   person1,
   person2,
-  person3,
   framer,
   notion,
   photoshop,

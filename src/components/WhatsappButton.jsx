@@ -4,7 +4,7 @@ import { wsp } from "../assets";
 
 const ScrollAndWhatsAppButton = () => {
   const [currentSection, setCurrentSection] = useState(0);
-  const sections = ['#nosotros', '#premisas', '#management', '#lineas', "#negocios", "#entretenimiento", "#alianzass", "#contacto", "#hero" ]; // Lista de IDs de las secciones
+  const sections = ['#nosotros', '#info',  '#premisas','#management', '#lineas', "#negocios", "#entretenimiento", "#alianzass", "#contacto", "#hero" ]; // Lista de IDs de las secciones
 
   const handleScroll = () => {
     const nextSection = (currentSection + 1) % sections.length; // Calcula el siguiente índice

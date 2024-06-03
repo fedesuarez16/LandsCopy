@@ -7,7 +7,7 @@ import { person1, person2, Raices } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
-  <section   className="overflow-hidden bg-custom" >
+  <section  className="overflow-hidden bg-custom" >
     <div  className="absolute opacity-30 w-full h-full">       
       </div>
     <div  className="container text-center mt-0 mb-20 lg:mt-10 text-bg">
@@ -17,7 +17,7 @@ const Roadmap = () => (
         {/* Primer bloque */}
 
        
-        <div className="hidden lg:flex mx-auto h-[180px] bg-gris2 mb-10 w-[450px] gap-1 items-center justify-center">
+        <div  id="#managementt" className="hidden lg:flex mx-auto h-[180px] bg-gris2 mb-10 w-[450px] gap-1 items-center justify-center">
         <div className="w-2/4 py-1 px-1 h-full">
           <img src={person2} alt="Person 1" className="w-full h-full object-cover" />
         </div>

@@ -6,7 +6,7 @@ import { fadeIn } from '../variants'
 
 const Info = () => {
   return (
-    <Section id="nosotros" className="bg-custom mx-2 mb-10">
+    <Section  className="bg-custom mx-2 lg:mb-10">
         <div className="absolute opacity-30 h-full w-full">
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
         

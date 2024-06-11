@@ -18,7 +18,6 @@ import {
   notification2,
   notification3,
   notification4,
-  notion,
   photoshop,
   plusSquare,
   protopie,
@@ -62,7 +61,7 @@ export const navigation = [
   {
     id: "1",
     title: "Servicios",
-    url: "#lineas",
+    url: "#features",
   },
   {
     id: "2",
@@ -194,13 +193,7 @@ export const collabApps = [
     width: 26,
     height: 36,
   },
-  {
-    id: "1",
-    title: "Notion",
-    icon: notion,
-    width: 34,
-    height: 36,
-  },
+
   {
     id: "2",
     title: "Discord",

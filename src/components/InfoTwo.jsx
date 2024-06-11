@@ -69,7 +69,7 @@ const InfoTwo = () => {
         </motion.div>
       </div>
 
-      <p  className="lg:mb-20 mb-32"    id="management"></p>
+      <p  className="lg:mb-20 z-50 mb-32"    id="management"></p>
     </Section>
   );
 };

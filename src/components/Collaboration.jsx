@@ -26,7 +26,7 @@ const Collaboration = () => {
         </div>
 
         <motion.div
-          variants={fadeIn('right', 0.9)}
+          variants={fadeIn('right', 0.3)}
           initial='hidden'
           whileInView='show'
           viewport={{ once: false, amount: 0.3 }}
@@ -83,7 +83,7 @@ const Collaboration = () => {
             whileTap={{ scale: 0.95 }}
             transition={{ duration: 0.2 }}
           >
-            Contáctanos
+            Contactanos
           </motion.button>
         </motion.div>
       </div>

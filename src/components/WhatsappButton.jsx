@@ -1,17 +1,57 @@
-import React, { useState } from 'react';
-import { BsChevronDown } from 'react-icons/bs'; // Puedes usar cualquier icono de flecha que prefieras
+import React, { useState, useEffect } from 'react';
+import { BsChevronDown } from 'react-icons/bs';
 import { wsp } from "../assets";
 
 const ScrollAndWhatsAppButton = () => {
+  const sections = [
+    '#hero', '#pricing', '#info', '#premisas', '#infoTwo', 
+    '#management', '#lineas', '#negocios', '#entretenimiento', '#subtitles', 
+    '#alianzass', '#contact', '#workWithUs', '#data', '#footer'
+  ];
   const [currentSection, setCurrentSection] = useState(0);
-  const sections = ['#nosotros', '#info',  '#premisas','#management', '#lineas', "#negocios", "#entretenimiento", "#alianzass", "#contacto", "#hero" ]; // Lista de IDs de las secciones
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const index = sections.findIndex((section) => section.substring(1) === entry.target.id);
+            console.log(`Sección visible: ${entry.target.id}, Índice: ${index}`);
+            if (index !== -1) {
+              setCurrentSection(index);
+            }
+          }
+        });
+      },
+      { threshold: 0.1 } // Ajuste del umbral de visibilidad
+    );
+  
+    sections.forEach((section) => {
+      const element = document.querySelector(section);
+      if (element) {
+        console.log(`Observando: ${section}`);
+        observer.observe(element);
+      }
+    });
+  
+    return () => {
+      sections.forEach((section) => {
+        const element = document.querySelector(section);
+        if (element) observer.unobserve(element);
+      });
+    };
+  }, [sections]);
+  
 
   const handleScroll = () => {
-    const nextSection = (currentSection + 1) % sections.length; // Calcula el siguiente índice
-    document.querySelector(sections[nextSection]).scrollIntoView({
-      behavior: 'smooth',
-    });
-    setCurrentSection(nextSection); // Actualiza el índice actual
+    const nextSection = (currentSection + 1) % sections.length;
+    const element = document.querySelector(sections[nextSection]);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start' // Alinea el elemento al inicio de la ventana de visualización
+      });
+    }
   };
 
   return (
@@ -23,7 +63,7 @@ const ScrollAndWhatsAppButton = () => {
         <BsChevronDown size={20} />
       </div>
       <a
-        href="https://wa.me/541170985000" // Reemplaza "541170985000" con el número de WhatsApp al que quieres enviar mensajes
+        href="https://wa.me/541170985000"
         target="_blank"
         rel="noopener noreferrer"
         className="p-4 bg-green-500 rounded-full text-white cursor-pointer flex items-center justify-center"

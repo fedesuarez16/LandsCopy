@@ -7,10 +7,10 @@ import { person1, person2, Raices } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
-  <section  className="overflow-hidden bg-custom" >
+  <section id="management" className="overflow-hidden h-auto bg-custom" >
     <div  className="absolute opacity-30 w-full h-full">       
       </div>
-    <div  className="container text-center mt-0 mb-20 lg:mt-10 text-bg">
+    <div  className="container text-2xl text-center mt-0 mb-20 lg:mt-10 text-bg">
       <Heading  title="Management Lands" />
       
       <div className="lg:grid lg:grid-cols-2 mx-auto font-code font-thin">
@@ -38,6 +38,8 @@ const Roadmap = () => (
         </div>
       </div>
 
+
+
         {/* Segundo bloque */}
        
 
@@ -63,9 +65,13 @@ const Roadmap = () => (
         </div>
       </div>
       
+
       {/* Frase centrada */}
     </div>
 
+    <div className="container mb-20 text-center  text-bg">
+                <p className="text-center text-bg   mt-20 text-2xl lg:text-5xl p-14 font-light">Contamos con más de <b>20 años de Experiencia</b> en la <b>Industria Financiera</b> y de <b>Seguros.</b></p>
+            </div>
     
     
   </section>

@@ -172,16 +172,18 @@ const Benefits = () => {
               </div>
 
               <div
-                onClick={() => {
-                  const contactoElement = document.getElementById('contacto');
-                  if (contactoElement) {
-                    contactoElement.scrollIntoView({ behavior: 'smooth' });
-                  }
-                }}
-                className="flex bg-bordo cursor-pointer lg:mr-[26rem] w-32 py-3 px-6 rounded-md items-center mt-2"
-              >
-                <p className="font-code text-[15px] font-semibold text-white tracking-wider">Llamanos</p>
-              </div>
+  onClick={() => {
+    const phoneNumber = "YOUR_PHONE_NUMBER"; // Reemplaza con el número de teléfono al que quieres enviar el mensaje.
+    const message = "Hola, me gustaría obtener más información."; // Mensaje predeterminado.
+    const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+
+    window.open(whatsappURL, "_blank");
+  }}
+  className="flex bg-bordo cursor-pointer lg:mr-[26rem] w-32 py-3 px-6 rounded-md items-center mt-2"
+>
+  <p id="frase" className="font-code text-[15px] font-semibold text-white tracking-wider">Llamanos</p>
+</div>
+
             </div>
           </div>
         </div>

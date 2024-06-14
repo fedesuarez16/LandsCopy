@@ -34,7 +34,7 @@ const NavigationButton = () => {
     <div className="fixed z-50 right-0 bottom-0 flex flex-col items-center m-4 space-y-2">
       <button
         onClick={handleNavigation}
-        className="p-4 bg-blue-600 rounded-full text-white cursor-pointer flex items-center justify-center"
+        className="p-5 bg-white rounded-full text-gray-400 opacity-50 cursor-pointer flex items-center justify-center"
       >
         <BsChevronDown size={20} />
       </button>

@@ -9,7 +9,6 @@ const InfoTwo = () => {
     <Section id="nosotros" className="bg-custom   ">
         <div className="absolute opacity-30 h-full w-full">
         <img src={Raices} alt="Background" className="w-full h-full object-cover" />
-
       </div>
       
       <div className="container  mt-12 lg:flex">

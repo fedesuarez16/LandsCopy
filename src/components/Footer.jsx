@@ -4,7 +4,7 @@ import { socials } from "../constants";
 
 const Footer = () => {
   return (
-    <Section crosses className="!px-0 !py-10 bg-gris">
+    <Section id="footer" crosses className="!px-0 !py-10 bg-gris">
             <hr className="border-t-[1.5px] border-black mb-6" />
 
       <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">

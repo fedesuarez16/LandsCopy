@@ -3,7 +3,7 @@ import { BsChevronDown } from 'react-icons/bs';
 import { wsp } from '../assets'; // Asegúrate de que la ruta de la imagen de WhatsApp sea correcta.
 
 const sections = [
-  'hero', 'nosotros', 'info', 'premisas', 'management', 'features', 'lineas', 'negocios', 'entretenimiento', 'frase', 'alianzass', 'contacto',
+  'hero', 'nosotros', 'info', 'premisas', 'management', 'features', 'lineas', 'negocios', 'entretenimiento', 'frase', 'alianzass', 'contacto', 'footer'
 ];
 
 const NavigationButton = () => {
@@ -11,6 +11,7 @@ const NavigationButton = () => {
     const currentScrollPosition = window.scrollY;
     const windowHeight = window.innerHeight;
     let nextSection = null;
+    let isLastSection = true;
 
     for (let section of sections) {
       const element = document.getElementById(section);
@@ -18,6 +19,7 @@ const NavigationButton = () => {
         const elementTop = element.getBoundingClientRect().top + window.scrollY;
         if (elementTop > currentScrollPosition + windowHeight / 2) {
           nextSection = element;
+          isLastSection = false;
           break;
         }
       }
@@ -25,7 +27,7 @@ const NavigationButton = () => {
 
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: 'smooth' });
-    } else {
+    } else if (isLastSection) {
       document.getElementById(sections[0]).scrollIntoView({ behavior: 'smooth' });
     }
   };
@@ -39,7 +41,7 @@ const NavigationButton = () => {
         <BsChevronDown size={20} />
       </button>
       <a
-        href="https://wa.me/YOUR_PHONE_NUMBER" // Reemplaza con tu número de teléfono en formato internacional.
+        href="https://wa.me/541170985000" // Reemplaza con tu número de teléfono en formato internacional.
         target="_blank"
         rel="noopener noreferrer"
         className="p-4 bg-green-500 rounded-full text-white cursor-pointer flex items-center justify-center"
